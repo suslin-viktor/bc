@@ -1,0 +1,24 @@
+<wpml-config>
+	<custom-fields>
+		<custom-field action="translate">_top_holder</custom-field>
+		<custom-field action="translate">_bottom_holder</custom-field>
+		<custom-field action="ignore">_header_bg_color</custom-field>
+		<custom-field action="ignore">_header_bg_img</custom-field>
+		<custom-field action="ignore">_header_bg_repeat</custom-field>
+		<custom-field action="ignore">_header_bg_position</custom-field>
+		<custom-field action="ignore">_header_bg_attachment</custom-field>
+		<custom-field action="ignore">_header_bg_size</custom-field>
+		<custom-field action="ignore">_custom_css</custom-field>
+	</custom-fields>
+	<admin-texts>
+		<key name="wolf_theme_options">
+			<key name="footer_text" />
+			<key name="headline" />
+			<key name="bottomline" />
+			<key name="embed_header" />
+			<key name="404" />
+		</key>
+	</admin-texts>    
+</wpml-config>
+
+

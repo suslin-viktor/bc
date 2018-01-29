@@ -1,0 +1,51 @@
+body, html {height:auto; max-width:100%; min-width:450px; overflow-x:hidden; padding:0; margin:0}
+
+#bd-popup {width:99%; height:auto; font-size:14px!important; font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;}
+
+#bd-popup-head { padding:10px 0;  font-size:14px!important;}
+
+#bd-popup-head strong {display: inline-block;}
+
+#bd-popup select {width:auto; font-size:inherit; margin-left:0; vertical-align:middle}
+
+#bd-popup .bd-field {border:none!important; margin-bottom:10px}
+
+#bd-popup .bd-field input, #bd-popup .bd-field textarea {width:100%; height:25px; line-height:25px; font-size:14px!important;}
+
+#bd-popup .bd-field label {height:25px;line-height:25px; margin-bottom:10px}
+
+#bd-popup fieldset {border:none; padding:0; font-size:14px!important;}
+
+#bd-popup fieldset input, #bd-popup fieldset textarea {font-size:14px!important; width:100%}
+
+#bd-popup fieldset label {height:25px;line-height:25px}
+
+#bd-popup a.close {color:#ff0000!important; text-decoration: none}
+
+#bd-popup a.close:hover {text-decoration: underline}
+
+
+#bd-popup .help {color:#333!important}
+
+#bd-popup p.submit {margin:0; padding: 0.5em 0; text-align: center;}
+
+#bd-popup .button-primary, 
+#bd-popup .button {
+text-align: center; 
+height: 30px;
+line-height: 28px;
+padding: 5px 12px;
+background-color:#21759b;
+background-image:-webkit-gradient(linear,left top,left bottom,from(#2a95c5),to(#21759b));
+background-image:-webkit-linear-gradient(top,#2a95c5,#21759b);
+background-image:-moz-linear-gradient(top,#2a95c5,#21759b);
+background-image:-ms-linear-gradient(top,#2a95c5,#21759b);
+background-image:-o-linear-gradient(top,#2a95c5,#21759b);
+background-image:linear-gradient(to bottom,#2a95c5,#21759b);
+border-color:#21759b;border-bottom-color:#1e6a8d;
+-webkit-box-shadow:inset 0 1px 0 rgba(120,200,230,0.5);
+box-shadow:inset 0 1px 0 rgba(120,200,230,0.5);color:#fff;
+text-decoration:none;text-shadow:0 1px 0 rgba(0,0,0,0.1)
+}
+
+

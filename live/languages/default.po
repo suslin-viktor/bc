@@ -1,0 +1,3239 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Default\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-22 02:56+0100\n"
+"PO-Revision-Date: 2014-04-22 02:56+0100\n"
+"Last-Translator: Constantin Saguin <support@themeforest.brutaldesign.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:11 ../pack/build/live/404.php:11
+msgid "Page not found !"
+msgstr ""
+
+#: ../404.php:18 ../includes/admin/options.php:515
+#: ../pack/build/live/404.php:18
+#: ../pack/build/live/includes/admin/options.php:515
+msgid "You've tried to reach a page that doesn't exist or has moved."
+msgstr ""
+
+#: ../404.php:21 ../includes/old-version/bd-paypal/paypal_cancel.php:6
+#: ../includes/old-version/bd-paypal/paypal_success.php:18
+#: ../pack/build/live/404.php:21
+#: ../pack/build/live/includes/old-version/bd-paypal/paypal_cancel.php:6
+#: ../pack/build/live/includes/old-version/bd-paypal/paypal_success.php:18
+msgid "back home"
+msgstr ""
+
+#: ../comments.php:37 ../pack/build/live/comments.php:37
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:38 ../pack/build/live/comments.php:38
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:39 ../pack/build/live/comments.php:39
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:44 ../pack/build/live/comments.php:44
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:55 ../pack/build/live/comments.php:55
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../comments.php:56 ../pack/build/live/comments.php:56
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out &raquo;</a>"
+msgstr ""
+
+#: ../comments.php:59 ../pack/build/live/comments.php:59
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../comments.php:60 ../pack/build/live/comments.php:60
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../comments.php:61 ../pack/build/live/comments.php:61
+msgid "Cancel Reply"
+msgstr ""
+
+#: ../comments.php:62 ../pack/build/live/comments.php:62
+msgid "Submit Comment"
+msgstr ""
+
+#: ../contact-template.php:8 ../pack/build/live/contact-template.php:8
+msgid "Please enter your name."
+msgstr ""
+
+#: ../contact-template.php:9 ../pack/build/live/contact-template.php:9
+msgid "Please enter a subject."
+msgstr ""
+
+#: ../contact-template.php:10 ../pack/build/live/contact-template.php:10
+msgid "Please enter your email address."
+msgstr ""
+
+#: ../contact-template.php:11 ../pack/build/live/contact-template.php:11
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: ../contact-template.php:12 ../pack/build/live/contact-template.php:12
+msgid "Please enter a message."
+msgstr ""
+
+#: ../contact-template.php:75 ../pack/build/live/contact-template.php:75
+msgid "An error occured, please try again later."
+msgstr ""
+
+#: ../contact-template.php:101 ../pack/build/live/contact-template.php:101
+msgid "Thanks, your email was sent successfully."
+msgstr ""
+
+#: ../contact-template.php:106 ../pack/build/live/contact-template.php:106
+msgid "Sorry, an error occured."
+msgstr ""
+
+#: ../contact-template.php:119 ../pack/build/live/contact-template.php:119
+msgid "Your Name"
+msgstr ""
+
+#: ../contact-template.php:124 ../pack/build/live/contact-template.php:124
+msgid "Your Email"
+msgstr ""
+
+#: ../contact-template.php:131 ../pack/build/live/contact-template.php:131
+msgid "Subject"
+msgstr ""
+
+#: ../contact-template.php:143 ../pack/build/live/contact-template.php:143
+msgid "Send"
+msgstr ""
+
+#: ../discography-template.php:32 ../discography-template.php:38
+#: ../pack/build/live/discography-template.php:32
+#: ../pack/build/live/discography-template.php:38
+#: ../pack/build/live/single-release.php:19
+#: ../pack/build/live/single-release.php:25
+#: ../pack/build/live/taxonomy-band.php:28
+#: ../pack/build/live/taxonomy-band.php:34
+#: ../pack/build/live/taxonomy-label.php:28
+#: ../pack/build/live/taxonomy-label.php:34 ../single-release.php:19
+#: ../single-release.php:25 ../taxonomy-band.php:28 ../taxonomy-band.php:34
+#: ../taxonomy-label.php:28 ../taxonomy-label.php:34
+msgid "Band "
+msgstr ""
+
+#: ../discography-template.php:46 ../discography-template.php:52
+#: ../pack/build/live/discography-template.php:46
+#: ../pack/build/live/discography-template.php:52
+#: ../pack/build/live/single-release.php:34
+#: ../pack/build/live/single-release.php:40
+#: ../pack/build/live/taxonomy-band.php:43
+#: ../pack/build/live/taxonomy-band.php:49
+#: ../pack/build/live/taxonomy-label.php:43
+#: ../pack/build/live/taxonomy-label.php:49 ../single-release.php:34
+#: ../single-release.php:40 ../taxonomy-band.php:43 ../taxonomy-band.php:49
+#: ../taxonomy-label.php:43 ../taxonomy-label.php:49
+msgid "Label "
+msgstr ""
+
+#: ../discography-template.php:74 ../discography-template.php:83
+#: ../includes/medias.php:370 ../includes/medias.php:416
+#: ../includes/template-tags.php:73 ../includes/template-tags.php:110
+#: ../includes/template-tags.php:157
+#: ../pack/build/live/discography-template.php:74
+#: ../pack/build/live/discography-template.php:83
+#: ../pack/build/live/includes/medias.php:370
+#: ../pack/build/live/includes/medias.php:416
+#: ../pack/build/live/includes/template-tags.php:73
+#: ../pack/build/live/includes/template-tags.php:110
+#: ../pack/build/live/includes/template-tags.php:157
+#: ../pack/build/live/taxonomy-band.php:71
+#: ../pack/build/live/taxonomy-band.php:80
+#: ../pack/build/live/taxonomy-label.php:71
+#: ../pack/build/live/taxonomy-label.php:80 ../taxonomy-band.php:71
+#: ../taxonomy-band.php:80 ../taxonomy-label.php:71 ../taxonomy-label.php:80
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../discography-template.php:90
+#: ../includes/old-version/last-store-item-widget.php:87
+#: ../pack/build/live/discography-template.php:90
+#: ../pack/build/live/includes/old-version/last-store-item-widget.php:87
+#: ../pack/build/live/single-release.php:100
+#: ../pack/build/live/taxonomy-band.php:87
+#: ../pack/build/live/taxonomy-label.php:87 ../single-release.php:100
+#: ../taxonomy-band.php:87 ../taxonomy-label.php:87
+msgid "Title"
+msgstr ""
+
+#: ../discography-template.php:95
+#: ../pack/build/live/discography-template.php:95
+#: ../pack/build/live/single-release.php:105
+#: ../pack/build/live/taxonomy-band.php:92
+#: ../pack/build/live/taxonomy-label.php:92 ../single-release.php:105
+#: ../taxonomy-band.php:92 ../taxonomy-label.php:92
+msgid "Release Date"
+msgstr ""
+
+#: ../discography-template.php:103
+#: ../pack/build/live/discography-template.php:103
+#: ../pack/build/live/single-release.php:113
+#: ../pack/build/live/taxonomy-band.php:100
+#: ../pack/build/live/taxonomy-label.php:100 ../single-release.php:113
+#: ../taxonomy-band.php:100 ../taxonomy-label.php:100
+msgid "Catalog ref."
+msgstr ""
+
+#: ../discography-template.php:108
+#: ../pack/build/live/discography-template.php:108
+#: ../pack/build/live/single-release.php:118
+#: ../pack/build/live/taxonomy-band.php:105
+#: ../pack/build/live/taxonomy-label.php:105 ../single-release.php:118
+#: ../taxonomy-band.php:105 ../taxonomy-label.php:105
+msgid "Format"
+msgstr ""
+
+#: ../discography-template.php:111
+#: ../pack/build/live/discography-template.php:111
+#: ../pack/build/live/taxonomy-band.php:108
+#: ../pack/build/live/taxonomy-label.php:108 ../taxonomy-band.php:108
+#: ../taxonomy-label.php:108
+msgid "View details"
+msgstr ""
+
+#: ../discography-template.php:123
+#: ../pack/build/live/discography-template.php:123
+#: ../pack/build/live/taxonomy-band.php:120
+#: ../pack/build/live/taxonomy-label.php:120 ../taxonomy-band.php:120
+#: ../taxonomy-label.php:120
+msgid "No release yet"
+msgstr ""
+
+#: ../header.php:77 ../pack/build/live/header.php:77
+msgid "Browse"
+msgstr ""
+
+#: ../includes/admin/metabox.php:10
+#: ../pack/build/live/includes/admin/metabox.php:10
+msgid "Custom Backgrounds"
+msgstr ""
+
+#: ../includes/admin/metabox.php:16 ../includes/admin/options.php:188
+#: ../pack/build/live/includes/admin/metabox.php:16
+#: ../pack/build/live/includes/admin/options.php:188
+msgid "Header Background"
+msgstr ""
+
+#: ../includes/admin/metabox.php:23
+#: ../pack/build/live/includes/admin/metabox.php:23
+msgid "Custom CSS (will be applied on this post only)"
+msgstr ""
+
+#: ../includes/admin/metabox.php:41
+#: ../pack/build/live/includes/admin/metabox.php:41
+msgid "Custom Content Areas"
+msgstr ""
+
+#: ../includes/admin/metabox.php:46
+#: ../pack/build/live/includes/admin/metabox.php:46
+msgid "Top Area"
+msgstr ""
+
+#: ../includes/admin/metabox.php:48 ../includes/admin/metabox.php:55
+#: ../pack/build/live/includes/admin/metabox.php:48
+#: ../pack/build/live/includes/admin/metabox.php:55
+msgid "Can contain HTML and shortcodes "
+msgstr ""
+
+#: ../includes/admin/metabox.php:53
+#: ../pack/build/live/includes/admin/metabox.php:53
+msgid "Bottom Area"
+msgstr ""
+
+#: ../includes/admin/options.php:42
+#: ../pack/build/live/includes/admin/options.php:42
+#: ../pack/build/live/wp-wolf-framework/wp-wolf-admin.php:90
+#: ../wp-wolf-framework/wp-wolf-admin.php:90
+msgid "Options"
+msgstr ""
+
+#: ../includes/admin/options.php:51
+#: ../pack/build/live/includes/admin/options.php:51
+msgid "General"
+msgstr ""
+
+#: ../includes/admin/options.php:54
+#: ../pack/build/live/includes/admin/options.php:54
+msgid "Main Settings"
+msgstr ""
+
+#: ../includes/admin/options.php:57
+#: ../pack/build/live/includes/admin/options.php:57
+msgid "Logo"
+msgstr ""
+
+#: ../includes/admin/options.php:62
+#: ../pack/build/live/includes/admin/options.php:62
+msgid "Skin"
+msgstr ""
+
+#: ../includes/admin/options.php:66
+#: ../pack/build/live/includes/admin/options.php:66
+msgid "dark"
+msgstr ""
+
+#: ../includes/admin/options.php:67
+#: ../pack/build/live/includes/admin/options.php:67
+msgid "light"
+msgstr ""
+
+#: ../includes/admin/options.php:68
+#: ../pack/build/live/includes/admin/options.php:68
+msgid "grunge"
+msgstr ""
+
+#: ../includes/admin/options.php:72
+#: ../pack/build/live/includes/admin/options.php:72
+msgid "Accent Font Color"
+msgstr ""
+
+#: ../includes/admin/options.php:73
+#: ../pack/build/live/includes/admin/options.php:73
+msgid "Font color for links, accent color etc..."
+msgstr ""
+
+#: ../includes/admin/options.php:78
+#: ../pack/build/live/includes/admin/options.php:78
+msgid "Lightbox"
+msgstr ""
+
+#: ../includes/admin/options.php:86
+#: ../pack/build/live/includes/admin/options.php:86
+msgid "Layout"
+msgstr ""
+
+#: ../includes/admin/options.php:89
+#: ../pack/build/live/includes/admin/options.php:89
+msgid "Page Container"
+msgstr ""
+
+#: ../includes/admin/options.php:93
+#: ../pack/build/live/includes/admin/options.php:93
+msgid "fullwidth"
+msgstr ""
+
+#: ../includes/admin/options.php:94
+#: ../pack/build/live/includes/admin/options.php:94
+msgid "wrapped"
+msgstr ""
+
+#: ../includes/admin/options.php:98
+#: ../pack/build/live/includes/admin/options.php:98
+msgid "Sidebar Position"
+msgstr ""
+
+#: ../includes/admin/options.php:102
+#: ../pack/build/live/includes/admin/options.php:102
+msgid "right"
+msgstr ""
+
+#: ../includes/admin/options.php:103
+#: ../pack/build/live/includes/admin/options.php:103
+msgid "left"
+msgstr ""
+
+#: ../includes/admin/options.php:108
+#: ../pack/build/live/includes/admin/options.php:108
+msgid "Display page title"
+msgstr ""
+
+#: ../includes/admin/options.php:109
+#: ../pack/build/live/includes/admin/options.php:109
+msgid "Would you like to display the page title on every page?"
+msgstr ""
+
+#: ../includes/admin/options.php:115
+#: ../pack/build/live/includes/admin/options.php:115
+msgid "Sticky main menu"
+msgstr ""
+
+#: ../includes/admin/options.php:117
+#: ../pack/build/live/includes/admin/options.php:117
+msgid "The admin bar on the front end will be hidden"
+msgstr ""
+
+#: ../includes/admin/options.php:123
+#: ../pack/build/live/includes/admin/options.php:123
+msgid "Footer"
+msgstr ""
+
+#: ../includes/admin/options.php:126
+#: ../pack/build/live/includes/admin/options.php:126
+msgid "Footer copyright text"
+msgstr ""
+
+#: ../includes/admin/options.php:127
+#: ../pack/build/live/includes/admin/options.php:127
+msgid ""
+"Enter the text used in the right side of the footer. It can contain HTML"
+msgstr ""
+
+#: ../includes/admin/options.php:143
+#: ../pack/build/live/includes/admin/options.php:143
+msgid "Custom Content"
+msgstr ""
+
+#: ../includes/admin/options.php:145
+#: ../pack/build/live/includes/admin/options.php:145
+msgid "Additional Page Content Areas"
+msgstr ""
+
+#: ../includes/admin/options.php:147
+#: ../pack/build/live/includes/admin/options.php:147
+msgid ""
+"Two additional areas to display any content above and below your main page "
+"content."
+msgstr ""
+
+#: ../includes/admin/options.php:151
+#: ../pack/build/live/includes/admin/options.php:151
+msgid "Default Top Content Area"
+msgstr ""
+
+#: ../includes/admin/options.php:152
+#: ../pack/build/live/includes/admin/options.php:152
+msgid ""
+"Any content to display at the top of your pages after the header (can be "
+"overwritten in post/page options, in the \"Top Area\" box below your text "
+"editor)."
+msgstr ""
+
+#: ../includes/admin/options.php:157
+#: ../pack/build/live/includes/admin/options.php:157
+msgid "Default Bottom Content Area"
+msgstr ""
+
+#: ../includes/admin/options.php:158
+#: ../pack/build/live/includes/admin/options.php:158
+msgid ""
+"Any content to display at the bottom of your pages before the footer (can be "
+"overwritten in post/page options, in the \"Bottom Area\" box below your text "
+"editor)."
+msgstr ""
+
+#: ../includes/admin/options.php:171 ../includes/admin/options.php:173
+#: ../pack/build/live/includes/admin/options.php:171
+#: ../pack/build/live/includes/admin/options.php:173
+msgid "Backgrounds"
+msgstr ""
+
+#: ../includes/admin/options.php:176
+#: ../pack/build/live/includes/admin/options.php:176
+msgid "Body Background"
+msgstr ""
+
+#: ../includes/admin/options.php:181
+#: ../pack/build/live/includes/admin/options.php:181
+msgid "Wrapper"
+msgstr ""
+
+#: ../includes/admin/options.php:182
+#: ../pack/build/live/includes/admin/options.php:182
+msgid ""
+"If you have set the page container to \"wrap\" in the general tab, set the "
+"background of the page container here"
+msgstr ""
+
+#: ../includes/admin/options.php:193
+#: ../pack/build/live/includes/admin/options.php:193
+msgid "Top Holder Background"
+msgstr ""
+
+#: ../includes/admin/options.php:198
+#: ../pack/build/live/includes/admin/options.php:198
+msgid "Bottom Holder Background"
+msgstr ""
+
+#: ../includes/admin/options.php:204
+#: ../pack/build/live/includes/admin/options.php:204
+msgid "Footer Widget Area"
+msgstr ""
+
+#: ../includes/admin/options.php:210
+#: ../pack/build/live/includes/admin/options.php:210
+msgid "Footer Social Logos Background"
+msgstr ""
+
+#: ../includes/admin/options.php:212
+#: ../pack/build/live/includes/admin/options.php:212
+msgid ""
+"This area is visible only if you have installed the <a href=\"http://WolfThemes."
+"com/plugin/wolf-music-network\" target=\"_blank\">WolfMusicNetwork plugin</"
+"a>."
+msgstr ""
+
+#: ../includes/admin/options.php:226
+#: ../pack/build/live/includes/admin/options.php:226
+msgid " Custom Fonts"
+msgstr ""
+
+#: ../includes/admin/options.php:228 ../includes/admin/options.php:361
+#: ../pack/build/live/includes/admin/options.php:228
+#: ../pack/build/live/includes/admin/options.php:361
+msgid "Body"
+msgstr ""
+
+#: ../includes/admin/options.php:231
+#: ../pack/build/live/includes/admin/options.php:231
+msgid "Body font"
+msgstr ""
+
+#: ../includes/admin/options.php:232
+#: ../pack/build/live/includes/admin/options.php:232
+msgid "Choose your font for the content"
+msgstr ""
+
+#: ../includes/admin/options.php:252 ../includes/admin/options.php:289
+#: ../pack/build/live/includes/admin/options.php:252
+#: ../pack/build/live/includes/admin/options.php:289
+msgid "Headings"
+msgstr ""
+
+#: ../includes/admin/options.php:255
+#: ../pack/build/live/includes/admin/options.php:255
+msgid "Title font"
+msgstr ""
+
+#: ../includes/admin/options.php:256
+#: ../pack/build/live/includes/admin/options.php:256
+msgid "Choose your font for the headings"
+msgstr ""
+
+#: ../includes/admin/options.php:264
+#: ../pack/build/live/includes/admin/options.php:264
+msgid "Main Menu"
+msgstr ""
+
+#: ../includes/admin/options.php:268
+#: ../pack/build/live/includes/admin/options.php:268
+msgid "Menu font"
+msgstr ""
+
+#: ../includes/admin/options.php:269
+#: ../pack/build/live/includes/admin/options.php:269
+msgid "Choose your font for the main menu"
+msgstr ""
+
+#: ../includes/admin/options.php:285
+#: ../pack/build/live/includes/admin/options.php:285
+msgid "Google Fonts"
+msgstr ""
+
+#: ../includes/admin/options.php:286
+#: ../pack/build/live/includes/admin/options.php:286
+msgid ""
+"Use this panel to import fonts from the Google fonts API. If you enter a "
+"font code, it will overwrite the Custom Font settings"
+msgstr ""
+
+#: ../includes/admin/options.php:291 ../includes/admin/options.php:328
+#: ../pack/build/live/includes/admin/options.php:291
+#: ../pack/build/live/includes/admin/options.php:328
+msgid "Leave the fields below empty to use the default font"
+msgstr ""
+
+#: ../includes/admin/options.php:294
+#: ../pack/build/live/includes/admin/options.php:294
+msgid "Titles google font code"
+msgstr ""
+
+#: ../includes/admin/options.php:296
+#: ../pack/build/live/includes/admin/options.php:296
+msgid "eg: \"Lora:400,700\". 400 and 700 are the available font weight"
+msgstr ""
+
+#: ../includes/admin/options.php:301
+#: ../pack/build/live/includes/admin/options.php:301
+msgid "Titles font name"
+msgstr ""
+
+#: ../includes/admin/options.php:303 ../includes/admin/options.php:339
+#: ../includes/admin/options.php:373
+#: ../pack/build/live/includes/admin/options.php:303
+#: ../pack/build/live/includes/admin/options.php:339
+#: ../pack/build/live/includes/admin/options.php:373
+msgid "eg: Lora"
+msgstr ""
+
+#: ../includes/admin/options.php:307
+#: ../pack/build/live/includes/admin/options.php:307
+msgid "Titles font weight"
+msgstr ""
+
+#: ../includes/admin/options.php:309
+#: ../pack/build/live/includes/admin/options.php:309
+msgid ""
+"For example: 400 is normal, 700 is bold.<br> The available font weight "
+"depends on your font."
+msgstr ""
+
+#: ../includes/admin/options.php:314
+#: ../pack/build/live/includes/admin/options.php:314
+msgid "Titles text transform"
+msgstr ""
+
+#: ../includes/admin/options.php:318 ../includes/admin/options.php:353
+#: ../includes/admin/options.php:403
+#: ../pack/build/live/includes/admin/options.php:318
+#: ../pack/build/live/includes/admin/options.php:353
+#: ../pack/build/live/includes/admin/options.php:403
+msgid "Standard"
+msgstr ""
+
+#: ../includes/admin/options.php:319 ../includes/admin/options.php:354
+#: ../pack/build/live/includes/admin/options.php:319
+#: ../pack/build/live/includes/admin/options.php:354
+msgid "Uppercase"
+msgstr ""
+
+#: ../includes/admin/options.php:326
+#: ../pack/build/live/includes/admin/options.php:326
+msgid "Menu"
+msgstr ""
+
+#: ../includes/admin/options.php:331
+#: ../pack/build/live/includes/admin/options.php:331
+msgid "Menu google font code"
+msgstr ""
+
+#: ../includes/admin/options.php:333 ../includes/admin/options.php:367
+#: ../pack/build/live/includes/admin/options.php:333
+#: ../pack/build/live/includes/admin/options.php:367
+msgid "eg: \"Lora:400,700\""
+msgstr ""
+
+#: ../includes/admin/options.php:337
+#: ../pack/build/live/includes/admin/options.php:337
+msgid "Menu font name"
+msgstr ""
+
+#: ../includes/admin/options.php:343
+#: ../pack/build/live/includes/admin/options.php:343
+msgid "Menu font weight"
+msgstr ""
+
+#: ../includes/admin/options.php:349
+#: ../pack/build/live/includes/admin/options.php:349
+msgid "Menu text transform"
+msgstr ""
+
+#: ../includes/admin/options.php:365
+#: ../pack/build/live/includes/admin/options.php:365
+msgid "Body google font code"
+msgstr ""
+
+#: ../includes/admin/options.php:371
+#: ../pack/build/live/includes/admin/options.php:371
+msgid "Body font name"
+msgstr ""
+
+#: ../includes/admin/options.php:387
+#: ../pack/build/live/includes/admin/options.php:387
+msgid "Homepage"
+msgstr ""
+
+#: ../includes/admin/options.php:389
+#: ../pack/build/live/includes/admin/options.php:389
+msgid "Home Page Header"
+msgstr ""
+
+#: ../includes/admin/options.php:393
+#: ../pack/build/live/includes/admin/options.php:393
+msgid "Header Background Parallax"
+msgstr ""
+
+#: ../includes/admin/options.php:398
+#: ../pack/build/live/includes/admin/options.php:398
+msgid "Home Header Type"
+msgstr ""
+
+#: ../includes/admin/options.php:399
+#: ../pack/build/live/includes/admin/options.php:399
+msgid "Select what you want to display on your homepage header"
+msgstr ""
+
+#: ../includes/admin/options.php:405
+#: ../pack/build/live/includes/admin/options.php:405
+msgid "Static Header"
+msgstr ""
+
+#: ../includes/admin/options.php:409
+#: ../pack/build/live/includes/admin/options.php:409
+msgid "Header Header Content"
+msgstr ""
+
+#: ../includes/admin/options.php:410
+#: ../pack/build/live/includes/admin/options.php:410
+msgid ""
+"Any content to display in the home page header: text, HTML, shortcodes etc..."
+msgstr ""
+
+#: ../includes/admin/options.php:415
+#: ../pack/build/live/includes/admin/options.php:415
+msgid "Static Header Image"
+msgstr ""
+
+#: ../includes/admin/options.php:416
+#: ../pack/build/live/includes/admin/options.php:416
+msgid "If you choose \"Static Header\" as header type, upload your image here"
+msgstr ""
+
+#: ../includes/admin/options.php:422
+#: ../pack/build/live/includes/admin/options.php:422
+msgid "Static Header Padding"
+msgstr ""
+
+#: ../includes/admin/options.php:423
+#: ../pack/build/live/includes/admin/options.php:423
+msgid "Space above and below the static image"
+msgstr ""
+
+#: ../includes/admin/options.php:438 ../includes/admin/options.php:440
+#: ../includes/admin/options.php:444
+#: ../pack/build/live/includes/admin/options.php:438
+#: ../pack/build/live/includes/admin/options.php:440
+#: ../pack/build/live/includes/admin/options.php:444
+msgid "Tracking Code"
+msgstr ""
+
+#: ../includes/admin/options.php:445
+#: ../pack/build/live/includes/admin/options.php:445
+msgid ""
+"You can paste your <strong>Google Analytics</strong> or other tracking code "
+"in this box. \n"
+"\t\t\t\t<br>Note that your tracking code will not be output when you're "
+"logged in to not count your own page views."
+msgstr ""
+
+#: ../includes/admin/options.php:467
+#: ../pack/build/live/includes/admin/options.php:467
+msgid "Custom CSS"
+msgstr ""
+
+#: ../includes/admin/options.php:468
+#: ../pack/build/live/includes/admin/options.php:468
+msgid ""
+"Want to add any custom CSS code? Put in here, and the rest is taken care of."
+msgstr ""
+
+#: ../includes/admin/options.php:483 ../includes/admin/options.php:486
+#: ../pack/build/live/includes/admin/options.php:483
+#: ../pack/build/live/includes/admin/options.php:486
+msgid "Misc"
+msgstr ""
+
+#: ../includes/admin/options.php:493
+#: ../pack/build/live/includes/admin/options.php:493
+msgid "Admin Login Logo"
+msgstr ""
+
+#: ../includes/admin/options.php:494
+#: ../pack/build/live/includes/admin/options.php:494
+msgid ""
+"It will replace the Wordpress logo on the admin login page. ( It must be "
+"80px X 80px )"
+msgstr ""
+
+#: ../includes/admin/options.php:502
+#: ../pack/build/live/includes/admin/options.php:502
+msgid "Custom Default Avatar (80px X 80px)"
+msgstr ""
+
+#: ../includes/admin/options.php:503
+#: ../pack/build/live/includes/admin/options.php:503
+#, php-format
+msgid ""
+"Once uploaded and saved, you will have to set your new avatar in the <a href="
+"\"%s\">discussion settings</a> (at the bottom of the page)"
+msgstr ""
+
+#: ../includes/admin/options.php:511
+#: ../pack/build/live/includes/admin/options.php:511
+msgid "404 page text"
+msgstr ""
+
+#: ../includes/admin/options.php:514
+#: ../pack/build/live/includes/admin/options.php:514
+msgid "Text to display on 404 error page"
+msgstr ""
+
+#: ../includes/admin/options.php:531
+#: ../pack/build/live/includes/admin/options.php:531
+#, php-format
+msgid ""
+"Want to add any custom CSS code? Put in here, and the rest is taken care of. "
+"If you need more CSS customization, you should create a <a href=\"%s\" "
+"target=\"_blank\">Child Theme</a>"
+msgstr ""
+
+#: ../includes/admin/plugins/plugins.php:201
+#: ../pack/build/live/includes/admin/plugins/plugins.php:201
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:155
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:155
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../includes/admin/plugins/plugins.php:202
+#: ../pack/build/live/includes/admin/plugins/plugins.php:202
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:156
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:156
+msgid "Install Plugins"
+msgstr ""
+
+#: ../includes/admin/plugins/plugins.php:203
+#: ../pack/build/live/includes/admin/plugins/plugins.php:203
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:157
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:157
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../includes/admin/plugins/plugins.php:204
+#: ../pack/build/live/includes/admin/plugins/plugins.php:204
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../includes/admin/plugins/plugins.php:215
+#: ../pack/build/live/includes/admin/plugins/plugins.php:215
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:169
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:169
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../includes/admin/plugins/plugins.php:216
+#: ../pack/build/live/includes/admin/plugins/plugins.php:216
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:171
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1840
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:171
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1840
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../includes/admin/plugins/plugins.php:217
+#: ../pack/build/live/includes/admin/plugins/plugins.php:217
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../includes/admin/video-thumbnails.php:72
+#: ../pack/build/live/includes/admin/video-thumbnails.php:72
+#, php-format
+msgid ""
+"Error retrieving video information from the URL <a href=\"%1$s\">%1$s</a>."
+"<br />\n"
+"\t\t\t\t\t\t\t\t<a href=\"%2$s\">Libcurl error</a> %3$s: <code>%4$s</"
+"code>. \n"
+"\t\t\t\t\t\t\t\tIf opening that URL in your web browser returns anything "
+"else than an error page, \n"
+"\t\t\t\t\t\t\t\tthe problem may be related to your web server and might be "
+"something your host administrator can solve."
+msgstr ""
+
+#: ../includes/admin/video-thumbnails.php:433
+#: ../includes/admin/video-thumbnails.php:600
+#: ../pack/build/live/includes/admin/video-thumbnails.php:433
+#: ../pack/build/live/includes/admin/video-thumbnails.php:600
+msgid "Reset"
+msgstr ""
+
+#: ../includes/admin/video-thumbnails.php:434
+#: ../includes/admin/video-thumbnails.php:601
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:197
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:202
+#: ../pack/build/live/includes/admin/video-thumbnails.php:434
+#: ../pack/build/live/includes/admin/video-thumbnails.php:601
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:197
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:202
+msgid "Delete"
+msgstr ""
+
+#: ../includes/admin/video-thumbnails.php:460
+#: ../pack/build/live/includes/admin/video-thumbnails.php:460
+msgid "Remove featured image"
+msgstr ""
+
+#: ../includes/admin/video-thumbnails.php:471
+#: ../pack/build/live/includes/admin/video-thumbnails.php:471
+msgid "Working..."
+msgstr ""
+
+#: ../includes/admin/video-thumbnails.php:519
+#: ../pack/build/live/includes/admin/video-thumbnails.php:519
+msgid "Set featured image"
+msgstr ""
+
+#: ../includes/admin/video-thumbnails.php:596
+#: ../pack/build/live/includes/admin/video-thumbnails.php:596
+msgid "No video URL in the post."
+msgstr ""
+
+#: ../includes/admin/video-thumbnails.php:597
+#: ../pack/build/live/includes/admin/video-thumbnails.php:597
+msgid ""
+"A video has been attached to this post. Click on \"Generate\" to create a "
+"thumbnail from this video"
+msgstr ""
+
+#: ../includes/admin/video-thumbnails.php:598
+#: ../pack/build/live/includes/admin/video-thumbnails.php:598
+msgid ""
+"You will be able to generate a video thumbnail and use it as featured image "
+"for this post when it is published."
+msgstr ""
+
+#: ../includes/admin/video-thumbnails.php:599
+#: ../pack/build/live/includes/admin/video-thumbnails.php:599
+msgid "Generate"
+msgstr ""
+
+#: ../includes/deprecated.php:53 ../pack/build/live/includes/deprecated.php:53
+#, php-format
+msgid ""
+"<strong>Your content has been upgraded successfully to suit to the new theme "
+"structure.</strong><br>\n"
+"\t\t\tPlease install the required plugins if you didn't already did it.<br>\n"
+"\t\t\tIf you encounter issues with your image sizes, please install <a href="
+"\"%s\">Regenerate Thumbnails</a> plugin and run the plugin in Tools -> "
+"Regenerate thumbnails to re-crop all your image automatically."
+msgstr ""
+
+#: ../includes/deprecated.php:103
+#: ../pack/build/live/includes/deprecated.php:103
+#, php-format
+msgid ""
+"<strong>Live! Theme Data Update Required</strong> &mdash; We need to update "
+"your install. <a href=\"%1$s\" target=\"_blank\">More Infos</a><br>\n"
+"\t\t\tIt may take a couple of minutes. Please, don't refresh or close this "
+"page during the update.<br><br>\n"
+"\t\t\t<a href=\"%2$s\" class=\"button-primary\">Run the Updater</a>"
+msgstr ""
+
+#: ../includes/deprecated.php:122
+#: ../pack/build/live/includes/deprecated.php:122
+#, php-format
+msgid ""
+"<strong>Would you like to remove the old store feature to use Woocommerce "
+"instead?</strong><br>\n"
+"\t\t\tClick on the button below if you agree or click on \"Hide permanently"
+"\" on the right to dimiss this message.<br><br>\n"
+"\t\t\t<a href=\"%s\" class=\"button-primary\">Remove In-buit Store</a>"
+msgstr ""
+
+#: ../includes/deprecated.php:143
+#: ../pack/build/live/includes/deprecated.php:143
+#, php-format
+msgid ""
+"The in-buit player is deprecated. Please Install <a href=\"%s\">WolfjPlayer "
+"plugin</a>"
+msgstr ""
+
+#: ../includes/deprecated.php:153 ../includes/old-version/old-version.php:8
+#: ../pack/build/live/includes/deprecated.php:153
+#: ../pack/build/live/includes/old-version/old-version.php:8
+msgid "Items"
+msgstr ""
+
+#: ../includes/deprecated.php:154 ../includes/old-version/old-version.php:9
+#: ../pack/build/live/includes/deprecated.php:154
+#: ../pack/build/live/includes/old-version/old-version.php:9
+msgid "Item"
+msgstr ""
+
+#: ../includes/deprecated.php:155 ../includes/deprecated.php:228
+#: ../includes/deprecated.php:272 ../includes/deprecated.php:312
+#: ../includes/deprecated.php:382 ../includes/deprecated.php:426
+#: ../includes/old-version/old-version.php:10
+#: ../pack/build/live/includes/deprecated.php:155
+#: ../pack/build/live/includes/deprecated.php:228
+#: ../pack/build/live/includes/deprecated.php:272
+#: ../pack/build/live/includes/deprecated.php:312
+#: ../pack/build/live/includes/deprecated.php:382
+#: ../pack/build/live/includes/deprecated.php:426
+#: ../pack/build/live/includes/old-version/old-version.php:10
+msgid "Add New"
+msgstr ""
+
+#: ../includes/deprecated.php:156 ../includes/old-version/old-version.php:11
+#: ../pack/build/live/includes/deprecated.php:156
+#: ../pack/build/live/includes/old-version/old-version.php:11
+msgid "Add New Item"
+msgstr ""
+
+#: ../includes/deprecated.php:157 ../includes/old-version/old-version.php:12
+#: ../pack/build/live/includes/deprecated.php:157
+#: ../pack/build/live/includes/old-version/old-version.php:12
+msgid "All Items"
+msgstr ""
+
+#: ../includes/deprecated.php:158 ../includes/old-version/old-version.php:13
+#: ../pack/build/live/includes/deprecated.php:158
+#: ../pack/build/live/includes/old-version/old-version.php:13
+msgid "Edit Item"
+msgstr ""
+
+#: ../includes/deprecated.php:159 ../includes/old-version/old-version.php:14
+#: ../pack/build/live/includes/deprecated.php:159
+#: ../pack/build/live/includes/old-version/old-version.php:14
+msgid "New Item"
+msgstr ""
+
+#: ../includes/deprecated.php:160 ../includes/old-version/old-version.php:15
+#: ../pack/build/live/includes/deprecated.php:160
+#: ../pack/build/live/includes/old-version/old-version.php:15
+msgid "View Item"
+msgstr ""
+
+#: ../includes/deprecated.php:161 ../includes/old-version/old-version.php:16
+#: ../pack/build/live/includes/deprecated.php:161
+#: ../pack/build/live/includes/old-version/old-version.php:16
+msgid "Search Items"
+msgstr ""
+
+#: ../includes/deprecated.php:162 ../includes/old-version/old-version.php:17
+#: ../pack/build/live/includes/deprecated.php:162
+#: ../pack/build/live/includes/old-version/old-version.php:17
+msgid "No Items found"
+msgstr ""
+
+#: ../includes/deprecated.php:163 ../includes/old-version/old-version.php:18
+#: ../pack/build/live/includes/deprecated.php:163
+#: ../pack/build/live/includes/old-version/old-version.php:18
+msgid "No Items found in Trash"
+msgstr ""
+
+#: ../includes/deprecated.php:165 ../includes/old-version/old-version.php:20
+#: ../pack/build/live/includes/deprecated.php:165
+#: ../pack/build/live/includes/old-version/old-version.php:20
+msgid "Store"
+msgstr ""
+
+#: ../includes/deprecated.php:193 ../includes/old-version/old-version.php:48
+#: ../pack/build/live/includes/deprecated.php:193
+#: ../pack/build/live/includes/old-version/old-version.php:48
+msgid "Item Categories"
+msgstr ""
+
+#: ../includes/deprecated.php:194 ../includes/old-version/old-version.php:49
+#: ../pack/build/live/includes/deprecated.php:194
+#: ../pack/build/live/includes/old-version/old-version.php:49
+msgid "Item Type"
+msgstr ""
+
+#: ../includes/deprecated.php:195 ../includes/old-version/old-version.php:50
+#: ../pack/build/live/includes/deprecated.php:195
+#: ../pack/build/live/includes/old-version/old-version.php:50
+msgid "Search Item Categories"
+msgstr ""
+
+#: ../includes/deprecated.php:196 ../includes/old-version/old-version.php:51
+#: ../pack/build/live/includes/deprecated.php:196
+#: ../pack/build/live/includes/old-version/old-version.php:51
+msgid "Popular Item Categories"
+msgstr ""
+
+#: ../includes/deprecated.php:197 ../includes/old-version/old-version.php:52
+#: ../pack/build/live/includes/deprecated.php:197
+#: ../pack/build/live/includes/old-version/old-version.php:52
+msgid "All Item Categories"
+msgstr ""
+
+#: ../includes/deprecated.php:198 ../includes/old-version/old-version.php:53
+#: ../pack/build/live/includes/deprecated.php:198
+#: ../pack/build/live/includes/old-version/old-version.php:53
+msgid "Parent Item Category"
+msgstr ""
+
+#: ../includes/deprecated.php:199 ../includes/old-version/old-version.php:54
+#: ../pack/build/live/includes/deprecated.php:199
+#: ../pack/build/live/includes/old-version/old-version.php:54
+msgid "Parent Item Category:"
+msgstr ""
+
+#: ../includes/deprecated.php:200 ../includes/old-version/old-version.php:55
+#: ../pack/build/live/includes/deprecated.php:200
+#: ../pack/build/live/includes/old-version/old-version.php:55
+msgid "Edit Item Category"
+msgstr ""
+
+#: ../includes/deprecated.php:201 ../includes/old-version/old-version.php:56
+#: ../pack/build/live/includes/deprecated.php:201
+#: ../pack/build/live/includes/old-version/old-version.php:56
+msgid "Update Item Category"
+msgstr ""
+
+#: ../includes/deprecated.php:202 ../includes/old-version/old-version.php:57
+#: ../pack/build/live/includes/deprecated.php:202
+#: ../pack/build/live/includes/old-version/old-version.php:57
+msgid "Add New Item Category"
+msgstr ""
+
+#: ../includes/deprecated.php:203 ../includes/old-version/old-version.php:58
+#: ../pack/build/live/includes/deprecated.php:203
+#: ../pack/build/live/includes/old-version/old-version.php:58
+msgid "New Item Category"
+msgstr ""
+
+#: ../includes/deprecated.php:204 ../includes/old-version/old-version.php:59
+#: ../pack/build/live/includes/deprecated.php:204
+#: ../pack/build/live/includes/old-version/old-version.php:59
+msgid "Separate Item categories with commas"
+msgstr ""
+
+#: ../includes/deprecated.php:205 ../includes/old-version/old-version.php:60
+#: ../pack/build/live/includes/deprecated.php:205
+#: ../pack/build/live/includes/old-version/old-version.php:60
+msgid "Add or remove Item categories"
+msgstr ""
+
+#: ../includes/deprecated.php:206 ../includes/old-version/old-version.php:61
+#: ../pack/build/live/includes/deprecated.php:206
+#: ../pack/build/live/includes/old-version/old-version.php:61
+msgid "Choose from the most used Item categories"
+msgstr ""
+
+#: ../includes/deprecated.php:207 ../includes/deprecated.php:360
+#: ../includes/old-version/old-version.php:62
+#: ../pack/build/live/includes/deprecated.php:207
+#: ../pack/build/live/includes/deprecated.php:360
+#: ../pack/build/live/includes/old-version/old-version.php:62
+msgid "Categories"
+msgstr ""
+
+#: ../includes/deprecated.php:226
+#: ../pack/build/live/includes/deprecated.php:226
+msgid "Shows"
+msgstr ""
+
+#: ../includes/deprecated.php:227
+#: ../includes/features/wolf-share/wolf-share.php:113
+#: ../pack/build/live/includes/deprecated.php:227
+#: ../pack/build/live/includes/features/wolf-share/wolf-share.php:113
+msgid "Show"
+msgstr ""
+
+#: ../includes/deprecated.php:229
+#: ../pack/build/live/includes/deprecated.php:229
+msgid "Add New Show"
+msgstr ""
+
+#: ../includes/deprecated.php:230
+#: ../pack/build/live/includes/deprecated.php:230
+msgid "All Shows"
+msgstr ""
+
+#: ../includes/deprecated.php:231
+#: ../pack/build/live/includes/deprecated.php:231
+msgid "Edit Show"
+msgstr ""
+
+#: ../includes/deprecated.php:232
+#: ../pack/build/live/includes/deprecated.php:232
+msgid "New Show"
+msgstr ""
+
+#: ../includes/deprecated.php:233
+#: ../pack/build/live/includes/deprecated.php:233
+msgid "View Show"
+msgstr ""
+
+#: ../includes/deprecated.php:234
+#: ../pack/build/live/includes/deprecated.php:234
+msgid "Search Shows"
+msgstr ""
+
+#: ../includes/deprecated.php:235
+#: ../pack/build/live/includes/deprecated.php:235
+msgid "No Shows found"
+msgstr ""
+
+#: ../includes/deprecated.php:236
+#: ../pack/build/live/includes/deprecated.php:236
+msgid "No Shows found in Trash"
+msgstr ""
+
+#: ../includes/deprecated.php:238
+#: ../pack/build/live/includes/deprecated.php:238
+msgid "Tour Dates"
+msgstr ""
+
+#: ../includes/deprecated.php:270 ../includes/deprecated.php:424
+#: ../pack/build/live/includes/deprecated.php:270
+#: ../pack/build/live/includes/deprecated.php:424
+msgid "Releases"
+msgstr ""
+
+#: ../includes/deprecated.php:271 ../includes/deprecated.php:425
+#: ../pack/build/live/includes/deprecated.php:271
+#: ../pack/build/live/includes/deprecated.php:425
+msgid "Release"
+msgstr ""
+
+#: ../includes/deprecated.php:273 ../includes/deprecated.php:427
+#: ../pack/build/live/includes/deprecated.php:273
+#: ../pack/build/live/includes/deprecated.php:427
+msgid "Add New Release"
+msgstr ""
+
+#: ../includes/deprecated.php:274 ../includes/deprecated.php:428
+#: ../pack/build/live/includes/deprecated.php:274
+#: ../pack/build/live/includes/deprecated.php:428
+msgid "All Releases"
+msgstr ""
+
+#: ../includes/deprecated.php:275 ../includes/deprecated.php:429
+#: ../pack/build/live/includes/deprecated.php:275
+#: ../pack/build/live/includes/deprecated.php:429
+msgid "Edit Release"
+msgstr ""
+
+#: ../includes/deprecated.php:276 ../includes/deprecated.php:430
+#: ../pack/build/live/includes/deprecated.php:276
+#: ../pack/build/live/includes/deprecated.php:430
+msgid "New Release"
+msgstr ""
+
+#: ../includes/deprecated.php:277 ../includes/deprecated.php:431
+#: ../pack/build/live/includes/deprecated.php:277
+#: ../pack/build/live/includes/deprecated.php:431
+msgid "View Release"
+msgstr ""
+
+#: ../includes/deprecated.php:278 ../includes/deprecated.php:432
+#: ../pack/build/live/includes/deprecated.php:278
+#: ../pack/build/live/includes/deprecated.php:432
+msgid "Search Releases"
+msgstr ""
+
+#: ../includes/deprecated.php:279 ../includes/deprecated.php:433
+#: ../pack/build/live/includes/deprecated.php:279
+#: ../pack/build/live/includes/deprecated.php:433
+msgid "No Releases found"
+msgstr ""
+
+#: ../includes/deprecated.php:280 ../includes/deprecated.php:434
+#: ../pack/build/live/includes/deprecated.php:280
+#: ../pack/build/live/includes/deprecated.php:434
+msgid "No Releases found in Trash"
+msgstr ""
+
+#: ../includes/deprecated.php:282 ../includes/deprecated.php:436
+#: ../pack/build/live/includes/deprecated.php:282
+#: ../pack/build/live/includes/deprecated.php:436
+msgid "Discography"
+msgstr ""
+
+#: ../includes/deprecated.php:310 ../includes/deprecated.php:322
+#: ../pack/build/live/includes/deprecated.php:310
+#: ../pack/build/live/includes/deprecated.php:322
+msgid "Albums"
+msgstr ""
+
+#: ../includes/deprecated.php:311
+#: ../pack/build/live/includes/deprecated.php:311
+msgid "Album"
+msgstr ""
+
+#: ../includes/deprecated.php:313
+#: ../pack/build/live/includes/deprecated.php:313
+msgid "Add New Album"
+msgstr ""
+
+#: ../includes/deprecated.php:314
+#: ../pack/build/live/includes/deprecated.php:314
+msgid "All Albums"
+msgstr ""
+
+#: ../includes/deprecated.php:315
+#: ../pack/build/live/includes/deprecated.php:315
+msgid "Edit Album"
+msgstr ""
+
+#: ../includes/deprecated.php:316
+#: ../pack/build/live/includes/deprecated.php:316
+msgid "New Album"
+msgstr ""
+
+#: ../includes/deprecated.php:317
+#: ../pack/build/live/includes/deprecated.php:317
+msgid "View Album"
+msgstr ""
+
+#: ../includes/deprecated.php:318
+#: ../pack/build/live/includes/deprecated.php:318
+msgid "Search Albums"
+msgstr ""
+
+#: ../includes/deprecated.php:319
+#: ../pack/build/live/includes/deprecated.php:319
+msgid "No Albums found"
+msgstr ""
+
+#: ../includes/deprecated.php:320
+#: ../pack/build/live/includes/deprecated.php:320
+msgid "No Albums found in Trash"
+msgstr ""
+
+#: ../includes/deprecated.php:346
+#: ../pack/build/live/includes/deprecated.php:346
+msgid "Gallery Categories"
+msgstr ""
+
+#: ../includes/deprecated.php:347
+#: ../pack/build/live/includes/deprecated.php:347
+msgid "Gallery Type"
+msgstr ""
+
+#: ../includes/deprecated.php:348
+#: ../pack/build/live/includes/deprecated.php:348
+msgid "Search Gallery Categories"
+msgstr ""
+
+#: ../includes/deprecated.php:349
+#: ../pack/build/live/includes/deprecated.php:349
+msgid "Popular Gallery Categories"
+msgstr ""
+
+#: ../includes/deprecated.php:350
+#: ../pack/build/live/includes/deprecated.php:350
+msgid "All Gallery Categories"
+msgstr ""
+
+#: ../includes/deprecated.php:351
+#: ../pack/build/live/includes/deprecated.php:351
+msgid "Parent Gallery Category"
+msgstr ""
+
+#: ../includes/deprecated.php:352
+#: ../pack/build/live/includes/deprecated.php:352
+msgid "Parent Gallery Category:"
+msgstr ""
+
+#: ../includes/deprecated.php:353
+#: ../pack/build/live/includes/deprecated.php:353
+msgid "Edit Gallery Category"
+msgstr ""
+
+#: ../includes/deprecated.php:354
+#: ../pack/build/live/includes/deprecated.php:354
+msgid "Update Gallery Category"
+msgstr ""
+
+#: ../includes/deprecated.php:355
+#: ../pack/build/live/includes/deprecated.php:355
+msgid "Add New Gallery Category"
+msgstr ""
+
+#: ../includes/deprecated.php:356
+#: ../pack/build/live/includes/deprecated.php:356
+msgid "New Gallery Category"
+msgstr ""
+
+#: ../includes/deprecated.php:357
+#: ../pack/build/live/includes/deprecated.php:357
+msgid "Separate Gallery categories with commas"
+msgstr ""
+
+#: ../includes/deprecated.php:358
+#: ../pack/build/live/includes/deprecated.php:358
+msgid "Add or remove Gallery categories"
+msgstr ""
+
+#: ../includes/deprecated.php:359
+#: ../pack/build/live/includes/deprecated.php:359
+msgid "Choose from the most used Gallery categories"
+msgstr ""
+
+#: ../includes/deprecated.php:380 ../includes/deprecated.php:392
+#: ../pack/build/live/includes/deprecated.php:380
+#: ../pack/build/live/includes/deprecated.php:392
+msgid "Videos"
+msgstr ""
+
+#: ../includes/deprecated.php:381
+#: ../pack/build/live/includes/deprecated.php:381
+msgid "Video"
+msgstr ""
+
+#: ../includes/deprecated.php:383
+#: ../pack/build/live/includes/deprecated.php:383
+msgid "Add New Video"
+msgstr ""
+
+#: ../includes/deprecated.php:384
+#: ../pack/build/live/includes/deprecated.php:384
+msgid "All Videos"
+msgstr ""
+
+#: ../includes/deprecated.php:385
+#: ../pack/build/live/includes/deprecated.php:385
+msgid "Edit Video"
+msgstr ""
+
+#: ../includes/deprecated.php:386
+#: ../pack/build/live/includes/deprecated.php:386
+msgid "New Video"
+msgstr ""
+
+#: ../includes/deprecated.php:387
+#: ../pack/build/live/includes/deprecated.php:387
+msgid "View Video"
+msgstr ""
+
+#: ../includes/deprecated.php:388
+#: ../pack/build/live/includes/deprecated.php:388
+msgid "Search Videos"
+msgstr ""
+
+#: ../includes/deprecated.php:389
+#: ../pack/build/live/includes/deprecated.php:389
+msgid "No Videos found"
+msgstr ""
+
+#: ../includes/deprecated.php:390
+#: ../pack/build/live/includes/deprecated.php:390
+msgid "No Videos found in Trash"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:58
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:58
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:58
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:58
+msgid "Slides deleted"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:60
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:60
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:60
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:60
+msgid "No slide selected"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:105
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:105
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:105
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:105
+msgid "Please choose an image to upload"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:109
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:109
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:109
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:109
+msgid "is not an image. Only jpg, png or gif are allowed"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:113
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:113
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:113
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:113
+msgid "is too big for your server. Your server upload max size is"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:129
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:129
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:129
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:129
+msgid "Image uploaded"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:131
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:131
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:131
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:131
+msgid "Error inserting database"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:143
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:143
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:143
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:143
+msgid "Slides Manager"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:145
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:145
+msgid "These images will be used in the Header Slider"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:149
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:149
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:149
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:149
+msgid "Upload"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:154
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:154
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:154
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:154
+#, php-format
+msgid "File (%1$s, %2$s or %3$s)"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:166
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:166
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:166
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:166
+msgid "Image"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:167
+#: ../includes/features/wolf-flexslider/wolf-flexslider-slide-edit.php:70
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:167
+#: ../includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:71
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:167
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-slide-edit.php:70
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:167
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:71
+msgid "Caption"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:168
+#: ../includes/features/wolf-flexslider/wolf-flexslider-slide-edit.php:66
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:169
+#: ../includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:67
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:168
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-slide-edit.php:66
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:169
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:67
+msgid "Link"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:169
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:209
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:170
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:214
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:169
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:209
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:170
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:214
+msgid "Action"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:187
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:196
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:188
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:193
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:201
+#: ../includes/functions.php:116 ../includes/functions.php:136
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:187
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:196
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:188
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:193
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:201
+#: ../pack/build/live/includes/functions.php:116
+#: ../pack/build/live/includes/functions.php:136
+#: ../pack/build/live/page-templates/full-width.php:25
+#: ../pack/build/live/page-templates/post-archives.php:62
+#: ../pack/build/live/page.php:34 ../pack/build/live/partials/loop-post.php:28
+#: ../pack/build/live/single-item.php:72
+#: ../pack/build/live/single-release.php:87
+#: ../pack/build/live/single-show.php:176
+#: ../pack/build/live/single-video.php:23
+#: ../pack/build/live/taxonomy-band.php:75
+#: ../pack/build/live/taxonomy-label.php:75
+#: ../page-templates/full-width.php:25 ../page-templates/post-archives.php:62
+#: ../page.php:34 ../partials/loop-post.php:28 ../single-item.php:72
+#: ../single-release.php:87 ../single-show.php:176 ../single-video.php:23
+#: ../taxonomy-band.php:75 ../taxonomy-label.php:75
+msgid "Edit"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:188
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:189
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:188
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:189
+msgid "No caption"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:193
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:198
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:193
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:198
+msgid "No link"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:197
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:202
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:197
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:202
+msgid "Are you sure to want to delete this slide ?"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:198
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:203
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:198
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:203
+msgid "move"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:202
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:207
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:202
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:207
+msgid "No image uploaded yet"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:210
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:215
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:210
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:215
+msgid "Delete selected slides"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:214
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:219
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:214
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:219
+msgid "Informations"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:215
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:220
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:215
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:220
+#, php-format
+msgid "Your image will be scaled and cropped to %1$s X %2$s."
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:216
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:221
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:216
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:221
+#, php-format
+msgid "You can change the height in the %1$s options %2$s."
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:217
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:222
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:217
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:222
+msgid "You have to re-crop your image after changing the height."
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:218
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:223
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:218
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:223
+msgid ""
+"You can re-crop your slide by clicking on \"edit\" near your image preview."
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:220
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:220
+msgid ""
+"Note that you can change the height, but as the slider is responsive, the "
+"width can be only 570px to fit the half of the header"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:223
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:228
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:223
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:228
+#, php-format
+msgid "Visit the official %s Website"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-panel.php:240
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:245
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-panel.php:240
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:245
+msgid "Are you sure to want to delete these slides?"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-slide-edit.php:37
+#: ../includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:39
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-slide-edit.php:37
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:39
+msgid "Image updated"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-slide-edit.php:39
+#: ../includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:41
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-slide-edit.php:39
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:41
+msgid "Select an image area to crop"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-slide-edit.php:55
+#: ../includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:57
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-slide-edit.php:55
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:57
+msgid "Edit this Slide"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-slide-edit.php:64
+#: ../includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:65
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-slide-edit.php:64
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:65
+msgid "All fields are optional"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-slide-edit.php:72
+#: ../includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:73
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-slide-edit.php:72
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:73
+msgid "HTML allowed"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-slide-edit.php:80
+#: ../includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:90
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-slide-edit.php:80
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:90
+msgid "Update"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider-slide-edit.php:83
+#: ../includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:93
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider-slide-edit.php:83
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:93
+msgid "back to the main page"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider.php:47
+#: ../includes/features/wolf-refineslide/wolf-refineslide.php:43
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider.php:47
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide.php:43
+#, php-format
+msgid ""
+"Error while trying to find the folder <strong>%s</strong>. \n"
+"\t\t\t\t\tPlease create it manually and set the permission to 777 through "
+"your FTP client.<br>\n"
+"\t\t\t\t\tThis folder is necessary to be able to allow users to upload "
+"avatar and ticket attachment."
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider.php:63
+#: ../includes/features/wolf-refineslide/wolf-refineslide.php:59
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider.php:63
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide.php:59
+#, php-format
+msgid ""
+"To be able to allow user to upload avatar and ticket attachments, the "
+"<strong>%s</strong> folder has to be writable. \n"
+"\t\t\t\t\tSet the folder permission to 777 through your FTP client."
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider.php:159
+#: ../includes/features/wolf-refineslide/wolf-refineslide.php:154
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider.php:159
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide.php:154
+msgid "Height"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider.php:160
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider.php:160
+msgid "Transition effect"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider.php:161
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider.php:161
+msgid "Time between animation in milisecond"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider.php:162
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider.php:162
+msgid "Slide transition speed"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider.php:163
+#: ../includes/features/wolf-refineslide/wolf-refineslide.php:159
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider.php:163
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide.php:159
+msgid "Autoplay"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider.php:164
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider.php:164
+msgid "Navigation arrows"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider.php:165
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider.php:165
+msgid "Navigation bullets"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider.php:166
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider.php:166
+msgid "Stop animation while the mouse is on the slide"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider.php:217
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider.php:217
+msgid "Full Width"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider.php:218
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider.php:218
+msgid "Wrapped"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider.php:301
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider.php:301
+msgid "Flexslider Settings"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider.php:305
+#: ../includes/features/wolf-refineslide/wolf-refineslide.php:276
+#: ../includes/features/wolf-share/wolf-share.php:317
+#: ../includes/old-version/bd-paypal/bd-paypal.php:189
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider.php:305
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide.php:276
+#: ../pack/build/live/includes/features/wolf-share/wolf-share.php:317
+#: ../pack/build/live/includes/old-version/bd-paypal/bd-paypal.php:189
+msgid "Save Changes"
+msgstr ""
+
+#: ../includes/features/wolf-flexslider/wolf-flexslider.php:307
+#: ../pack/build/live/includes/features/wolf-flexslider/wolf-flexslider.php:307
+msgid "Visit the official Flexslider Website"
+msgstr ""
+
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:145
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:145
+msgid "These images will be used in the Home Page Slider"
+msgstr ""
+
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:168
+#: ../includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:76
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:168
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:76
+msgid "Caption Position"
+msgstr ""
+
+#: ../includes/features/wolf-refineslide/wolf-refineslide-panel.php:225
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-panel.php:225
+msgid ""
+"Note that you can change the height, but as the slider is responsive, the "
+"width can be only 1140px to fit to the layout"
+msgstr ""
+
+#: ../includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:78
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:78
+msgid "bottom right"
+msgstr ""
+
+#: ../includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:79
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:79
+msgid "bottom left"
+msgstr ""
+
+#: ../includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:80
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:80
+msgid "top right"
+msgstr ""
+
+#: ../includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:81
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide-slide-edit.php:81
+msgid "top left"
+msgstr ""
+
+#: ../includes/features/wolf-refineslide/wolf-refineslide.php:155
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide.php:155
+msgid "Transition Effect"
+msgstr ""
+
+#: ../includes/features/wolf-refineslide/wolf-refineslide.php:156
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide.php:156
+msgid "Time between animation in milliseconds"
+msgstr ""
+
+#: ../includes/features/wolf-refineslide/wolf-refineslide.php:157
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide.php:157
+msgid "Transition Duration"
+msgstr ""
+
+#: ../includes/features/wolf-refineslide/wolf-refineslide.php:158
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide.php:158
+msgid "Navigation"
+msgstr ""
+
+#: ../includes/features/wolf-refineslide/wolf-refineslide.php:272
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide.php:272
+msgid "RefineSlide Settings"
+msgstr ""
+
+#: ../includes/features/wolf-refineslide/wolf-refineslide.php:278
+#: ../pack/build/live/includes/features/wolf-refineslide/wolf-refineslide.php:278
+msgid "Visit the official refineslide Website"
+msgstr ""
+
+#: ../includes/features/wolf-share/wolf-share.php:98
+#: ../pack/build/live/includes/features/wolf-share/wolf-share.php:98
+msgid "Share"
+msgstr ""
+
+#: ../includes/features/wolf-share/wolf-share.php:115
+#: ../pack/build/live/includes/features/wolf-share/wolf-share.php:115
+msgid "Generate Facebook Meta"
+msgstr ""
+
+#: ../includes/features/wolf-share/wolf-share.php:116
+#: ../pack/build/live/includes/features/wolf-share/wolf-share.php:116
+msgid "Generate Google+ Meta"
+msgstr ""
+
+#: ../includes/features/wolf-share/wolf-share.php:117
+#: ../pack/build/live/includes/features/wolf-share/wolf-share.php:117
+msgid "Default facebook and google share image"
+msgstr ""
+
+#: ../includes/features/wolf-share/wolf-share.php:118
+#: ../pack/build/live/includes/features/wolf-share/wolf-share.php:118
+msgid "Preview"
+msgstr ""
+
+#: ../includes/features/wolf-share/wolf-share.php:119
+#: ../pack/build/live/includes/features/wolf-share/wolf-share.php:119
+msgid "Shortcode and Template Tag"
+msgstr ""
+
+#: ../includes/features/wolf-share/wolf-share.php:120
+#: ../pack/build/live/includes/features/wolf-share/wolf-share.php:120
+msgid "Tip"
+msgstr ""
+
+#: ../includes/features/wolf-share/wolf-share.php:178
+#: ../pack/build/live/includes/features/wolf-share/wolf-share.php:178
+msgid ""
+"By default, this plugin generates facebook meta automatically. If you use a "
+"third-party facebook plugin, you can disable this option to avoid conflicts"
+msgstr ""
+
+#: ../includes/features/wolf-share/wolf-share.php:205
+#: ../pack/build/live/includes/features/wolf-share/wolf-share.php:205
+msgid ""
+"By default, the featured image or the first image of the shared post will be "
+"shown. If the post has no image, this image will be used"
+msgstr ""
+
+#: ../includes/features/wolf-share/wolf-share.php:222
+#: ../pack/build/live/includes/features/wolf-share/wolf-share.php:222
+msgid "To use BrutalDesign Share in your pages you can use the shortcode"
+msgstr ""
+
+#: ../includes/features/wolf-share/wolf-share.php:226
+#: ../pack/build/live/includes/features/wolf-share/wolf-share.php:226
+msgid ""
+"To use BrutalDesign Share manually in your theme template use the following "
+"PHP code"
+msgstr ""
+
+#: ../includes/features/wolf-share/wolf-share.php:234
+#: ../pack/build/live/includes/features/wolf-share/wolf-share.php:234
+msgid ""
+"You can check how it looks when you share an URL on your facebook wall by "
+"using this tool"
+msgstr ""
+
+#: ../includes/features/wolf-share/wolf-share.php:313
+#: ../pack/build/live/includes/features/wolf-share/wolf-share.php:313
+msgid "Share Buttons Settings"
+msgstr ""
+
+#: ../includes/functions.php:23 ../pack/build/live/includes/functions.php:23
+msgid "Custom avatar"
+msgstr ""
+
+#: ../includes/functions.php:71 ../pack/build/live/includes/functions.php:71
+msgid "Powered by Wordpress"
+msgstr ""
+
+#: ../includes/functions.php:116 ../pack/build/live/includes/functions.php:116
+msgid "Pingback:"
+msgstr ""
+
+#: ../includes/functions.php:134 ../pack/build/live/includes/functions.php:134
+#, php-format
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../includes/functions.php:141 ../pack/build/live/includes/functions.php:141
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../includes/functions.php:149 ../pack/build/live/includes/functions.php:149
+msgid "Reply"
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/bd-paypal-checkout-widget.php:24
+#: ../pack/build/live/includes/old-version/bd-paypal/bd-paypal-checkout-widget.php:24
+msgid "Display a paypal checkout button"
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/bd-paypal-checkout-widget.php:67
+#: ../pack/build/live/includes/old-version/bd-paypal/bd-paypal-checkout-widget.php:67
+msgid "Text (e;g : Checkout)"
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/bd-paypal.php:45
+#: ../pack/build/live/includes/old-version/bd-paypal/bd-paypal.php:45
+msgid "Your paypal seller email or merchant ID"
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/bd-paypal.php:46
+#: ../pack/build/live/includes/old-version/bd-paypal/bd-paypal.php:46
+msgid "Currency code"
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/bd-paypal.php:47
+#: ../pack/build/live/includes/old-version/bd-paypal/bd-paypal.php:47
+msgid "Send a confirmation email to the buyer after a sale."
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/bd-paypal.php:48
+#: ../pack/build/live/includes/old-version/bd-paypal/bd-paypal.php:48
+msgid "Infos"
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/bd-paypal.php:96
+#: ../pack/build/live/includes/old-version/bd-paypal/bd-paypal.php:96
+#, php-format
+msgid ""
+"You can find the confirmation email template in the <br><code>%s</code> file"
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/bd-paypal.php:185
+#: ../pack/build/live/includes/old-version/bd-paypal/bd-paypal.php:185
+msgid "Paypal Settings"
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/bd-paypal.php:353
+#: ../pack/build/live/includes/old-version/bd-paypal/bd-paypal.php:353
+msgid "You must set a price and a name for your product"
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/bd-paypal.php:364
+#: ../pack/build/live/includes/old-version/bd-paypal/bd-paypal.php:364
+msgid "You must set your seller email and your currency in the paypal options."
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/ipn.php:98
+#: ../pack/build/live/includes/old-version/bd-paypal/ipn.php:98
+msgid "Order Confirmation"
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/paypal.php:21
+#: ../includes/old-version/bd-paypal/paypal.php:120
+#: ../pack/build/live/includes/old-version/bd-paypal/paypal.php:21
+#: ../pack/build/live/includes/old-version/bd-paypal/paypal.php:120
+msgid "Insert a Paypal Button"
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/paypal.php:124
+#: ../pack/build/live/includes/old-version/bd-paypal/paypal.php:124
+msgid "Button text"
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/paypal.php:128
+#: ../pack/build/live/includes/old-version/bd-paypal/paypal.php:128
+msgid "Item name"
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/paypal.php:132
+#: ../pack/build/live/includes/old-version/bd-paypal/paypal.php:132
+msgid "Price  (e.g : 15)"
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/paypal.php:137
+#: ../pack/build/live/includes/old-version/bd-paypal/paypal.php:137
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1293
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1293
+msgid "Type"
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/paypal.php:139
+#: ../includes/old-version/last-store-item-widget.php:143
+#: ../includes/old-version/last-store-item-widget.php:157
+#: ../pack/build/live/includes/old-version/bd-paypal/paypal.php:139
+#: ../pack/build/live/includes/old-version/last-store-item-widget.php:143
+#: ../pack/build/live/includes/old-version/last-store-item-widget.php:157
+#: ../pack/build/live/single-item.php:21 ../single-item.php:21
+msgid "Buy Now"
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/paypal.php:140
+#: ../pack/build/live/includes/old-version/bd-paypal/paypal.php:140
+msgid "Add to cart"
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/paypal.php:145
+#: ../pack/build/live/includes/old-version/bd-paypal/paypal.php:145
+msgid "Shipping"
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/paypal.php:149
+#: ../pack/build/live/includes/old-version/bd-paypal/paypal.php:149
+msgid "Tax"
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/paypal.php:156
+#: ../pack/build/live/includes/old-version/bd-paypal/paypal.php:156
+msgid "Option name (e.g : color)"
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/paypal.php:161
+#: ../pack/build/live/includes/old-version/bd-paypal/paypal.php:161
+msgid "Options (separate by a comma e.g: red,black,yellow)"
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/paypal.php:164
+#: ../pack/build/live/includes/old-version/bd-paypal/paypal.php:164
+msgid "remove"
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/paypal.php:171
+#: ../pack/build/live/includes/old-version/bd-paypal/paypal.php:171
+msgid "Add options"
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/paypal.php:175
+#: ../pack/build/live/includes/old-version/bd-paypal/paypal.php:175
+msgid "Insert"
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/paypal_cancel.php:4
+#: ../pack/build/live/includes/old-version/bd-paypal/paypal_cancel.php:4
+msgid "Order Cancelled"
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/paypal_cancel.php:5
+#: ../pack/build/live/includes/old-version/bd-paypal/paypal_cancel.php:5
+msgid "Your order has been cancelled."
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/paypal_success.php:4
+#: ../pack/build/live/includes/old-version/bd-paypal/paypal_success.php:4
+msgid "Thank you!"
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/paypal_success.php:5
+#: ../pack/build/live/includes/old-version/bd-paypal/paypal_success.php:5
+msgid "Your order has been processed successfully."
+msgstr ""
+
+#: ../includes/old-version/bd-paypal/paypal_success.php:13
+#: ../pack/build/live/includes/old-version/bd-paypal/paypal_success.php:13
+msgid "You will recieve a confirmation email."
+msgstr ""
+
+#: ../includes/old-version/last-store-item-widget.php:35
+#: ../pack/build/live/includes/old-version/last-store-item-widget.php:35
+msgid "Display your last store item"
+msgstr ""
+
+#: ../includes/old-version/last-store-item-widget.php:91
+#: ../pack/build/live/includes/old-version/last-store-item-widget.php:91
+msgid "Optional Text"
+msgstr ""
+
+#: ../includes/old-version/last-store-item-widget.php:95
+#: ../pack/build/live/includes/old-version/last-store-item-widget.php:95
+msgid "Count"
+msgstr ""
+
+#: ../includes/old-version/last-store-item-widget.php:140
+#: ../pack/build/live/includes/old-version/last-store-item-widget.php:140
+#: ../pack/build/live/single-item.php:67
+#: ../pack/build/live/store-template.php:90 ../single-item.php:67
+#: ../store-template.php:90
+msgid "Sold Out"
+msgstr ""
+
+#: ../includes/sidebars.php:12 ../pack/build/live/includes/sidebars.php:12
+msgid "The default sidebar used for the blog."
+msgstr ""
+
+#: ../includes/sidebars.php:24 ../pack/build/live/includes/sidebars.php:24
+msgid "Footer widget area (supports 3 widgets)"
+msgstr ""
+
+#: ../includes/sidebars.php:33 ../includes/sidebars.php:43
+#: ../pack/build/live/includes/sidebars.php:33
+#: ../pack/build/live/includes/sidebars.php:43
+msgid "Store Sidebar"
+msgstr ""
+
+#: ../includes/sidebars.php:35 ../pack/build/live/includes/sidebars.php:35
+msgid "Appears in Woocommerce pages"
+msgstr ""
+
+#: ../includes/sidebars.php:45 ../pack/build/live/includes/sidebars.php:45
+msgid "Appears in Store pages"
+msgstr ""
+
+#: ../includes/template-tags.php:32
+#: ../pack/build/live/includes/template-tags.php:32
+msgid "View Website"
+msgstr ""
+
+#: ../includes/template-tags.php:101
+#: ../pack/build/live/includes/template-tags.php:101
+msgid "Sticky"
+msgstr ""
+
+#: ../includes/template-tags.php:111
+#: ../pack/build/live/includes/template-tags.php:111
+msgid "Permalink"
+msgstr ""
+
+#: ../includes/template-tags.php:119
+#: ../pack/build/live/includes/template-tags.php:119
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../includes/template-tags.php:126 ../includes/template-tags.php:132
+#: ../pack/build/live/includes/template-tags.php:126
+#: ../pack/build/live/includes/template-tags.php:132
+msgid ", "
+msgstr ""
+
+#: ../includes/template-tags.php:153
+#: ../pack/build/live/includes/template-tags.php:153
+#, php-format
+msgctxt "1: post format name. 2: date"
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: ../includes/template-tags.php:192
+#: ../pack/build/live/includes/template-tags.php:192
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: ../includes/template-tags.php:196
+#: ../pack/build/live/includes/template-tags.php:196
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../includes/theme-functions.php:136 ../includes/theme-functions.php:154
+#: ../pack/build/live/includes/theme-functions.php:136
+#: ../pack/build/live/includes/theme-functions.php:154
+msgid "Read more &rarr;"
+msgstr ""
+
+#: ../includes/theme-functions.php:143
+#: ../pack/build/live/includes/theme-functions.php:143
+msgid "More about this video &rarr;"
+msgstr ""
+
+#: ../includes/theme-functions.php:147
+#: ../pack/build/live/includes/theme-functions.php:147
+msgid "View more &rarr;"
+msgstr ""
+
+#: ../includes/theme-functions.php:151
+#: ../pack/build/live/includes/theme-functions.php:151
+msgid "More about this song &rarr;"
+msgstr ""
+
+#: ../includes/theme-functions.php:336
+#: ../pack/build/live/includes/theme-functions.php:336
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../includes/theme-functions.php:601
+#: ../pack/build/live/includes/theme-functions.php:601
+msgid "Read more"
+msgstr ""
+
+#: ../includes/widgets/custom-tabs-widget.php:36
+#: ../pack/build/live/includes/widgets/custom-tabs-widget.php:36
+msgid "3 tabs: last posts, popular posts, and last comments"
+msgstr ""
+
+#: ../includes/widgets/custom-tabs-widget.php:39
+#: ../pack/build/live/includes/widgets/custom-tabs-widget.php:39
+msgid "Custom tabs"
+msgstr ""
+
+#: ../includes/widgets/custom-tabs-widget.php:87
+#: ../pack/build/live/includes/widgets/custom-tabs-widget.php:87
+msgid "Recent"
+msgstr ""
+
+#: ../includes/widgets/custom-tabs-widget.php:88
+#: ../pack/build/live/includes/widgets/custom-tabs-widget.php:88
+msgid "Popular"
+msgstr ""
+
+#: ../includes/widgets/custom-tabs-widget.php:89
+#: ../pack/build/live/includes/widgets/custom-tabs-widget.php:89
+msgid "Comments"
+msgstr ""
+
+#: ../includes/widgets/custom-tabs-widget.php:101
+#: ../includes/widgets/custom-tabs-widget.php:124
+#: ../pack/build/live/includes/widgets/custom-tabs-widget.php:101
+#: ../pack/build/live/includes/widgets/custom-tabs-widget.php:124
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: ../includes/widgets/custom-tabs-widget.php:106
+#: ../pack/build/live/includes/widgets/custom-tabs-widget.php:106
+#: ../pack/build/live/partials/loop-post.php:38 ../partials/loop-post.php:38
+msgid "Leave a comment"
+msgstr ""
+
+#: ../includes/widgets/custom-tabs-widget.php:106
+#: ../pack/build/live/includes/widgets/custom-tabs-widget.php:106
+#: ../pack/build/live/partials/loop-post.php:38 ../partials/loop-post.php:38
+msgid "One comment so far"
+msgstr ""
+
+#: ../includes/widgets/custom-tabs-widget.php:106
+#: ../pack/build/live/includes/widgets/custom-tabs-widget.php:106
+#: ../pack/build/live/partials/loop-post.php:38 ../partials/loop-post.php:38
+#, php-format
+msgid "View all % comments"
+msgstr ""
+
+#: ../includes/widgets/custom-tabs-widget.php:165
+#: ../pack/build/live/includes/widgets/custom-tabs-widget.php:165
+msgid "said"
+msgstr ""
+
+#: ../includes/widgets/custom-tabs-widget.php:170
+#: ../pack/build/live/includes/widgets/custom-tabs-widget.php:170
+msgid "on"
+msgstr ""
+
+#: ../includes/widgets/custom-tabs-widget.php:170
+#: ../pack/build/live/includes/widgets/custom-tabs-widget.php:170
+msgid "Read the comment"
+msgstr ""
+
+#: ../includes/widgets/custom-tabs-widget.php:180
+#: ../pack/build/live/includes/widgets/custom-tabs-widget.php:180
+msgid "No comment"
+msgstr ""
+
+#: ../includes/widgets/custom-tabs-widget.php:191
+#: ../pack/build/live/includes/widgets/custom-tabs-widget.php:191
+msgid "Anonymous"
+msgstr ""
+
+#: ../includes/widgets/custom-tabs-widget.php:203
+#: ../pack/build/live/includes/widgets/custom-tabs-widget.php:203
+msgid "No Response"
+msgstr ""
+
+#: ../includes/widgets/custom-tabs-widget.php:206
+#: ../includes/widgets/custom-tabs-widget.php:209
+#: ../pack/build/live/includes/widgets/custom-tabs-widget.php:206
+#: ../pack/build/live/includes/widgets/custom-tabs-widget.php:209
+msgid "Responses"
+msgstr ""
+
+#: ../includes/widgets/custom-tabs-widget.php:214
+#: ../pack/build/live/includes/widgets/custom-tabs-widget.php:214
+msgid "Leave a reply"
+msgstr ""
+
+#: ../pack/build/live/page-templates/full-width.php:21
+#: ../pack/build/live/page.php:30 ../page-templates/full-width.php:21
+#: ../page.php:30
+msgid "Pages:"
+msgstr ""
+
+#: ../pack/build/live/page-templates/home-blog.php:24
+#: ../page-templates/home-blog.php:24
+msgid "Read more news"
+msgstr ""
+
+#: ../pack/build/live/page-templates/post-archives.php:16
+#: ../page-templates/post-archives.php:16
+msgid "Last 30 posts"
+msgstr ""
+
+#: ../pack/build/live/page-templates/post-archives.php:22
+#: ../page-templates/post-archives.php:22
+msgid "Archives by Month"
+msgstr ""
+
+#: ../pack/build/live/page-templates/post-archives.php:28
+#: ../page-templates/post-archives.php:28
+msgid "Archives by Subject"
+msgstr ""
+
+#: ../pack/build/live/partials/content-none.php:11
+#: ../pack/build/live/store-template.php:125 ../partials/content-none.php:11
+#: ../store-template.php:125
+msgid "Nothing Found"
+msgstr ""
+
+#: ../pack/build/live/partials/content-none.php:17
+#: ../partials/content-none.php:17
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../pack/build/live/partials/content-none.php:21
+#: ../partials/content-none.php:21
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../pack/build/live/partials/content-none.php:26
+#: ../partials/content-none.php:26
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr ""
+
+#: ../pack/build/live/partials/loop-post.php:15 ../partials/loop-post.php:15
+#, php-format
+msgid "Comment on %s"
+msgstr ""
+
+#: ../pack/build/live/searchform.php:8 ../searchform.php:8
+msgid "Search &hellip;"
+msgstr ""
+
+#: ../pack/build/live/searchform.php:9 ../searchform.php:9
+msgid "Search"
+msgstr ""
+
+#: ../pack/build/live/single-item.php:38 ../single-item.php:38
+msgid "Buy on iTunes"
+msgstr ""
+
+#: ../pack/build/live/single-item.php:39 ../single-item.php:39
+msgid "Buy on Amazon"
+msgstr ""
+
+#: ../pack/build/live/single-release.php:81 ../single-release.php:81
+msgid "Buy"
+msgstr ""
+
+#: ../pack/build/live/single-show.php:61 ../single-show.php:61
+#, php-format
+msgid "Buy ticket - %s"
+msgstr ""
+
+#: ../pack/build/live/single-show.php:61 ../single-show.php:61
+msgid "Buy ticket"
+msgstr ""
+
+#: ../pack/build/live/single-show.php:95 ../single-show.php:95
+msgid "Free"
+msgstr ""
+
+#: ../pack/build/live/single-show.php:99 ../single-show.php:99
+msgid "Sold Out !"
+msgstr ""
+
+#: ../pack/build/live/single-show.php:103 ../single-show.php:103
+msgid "Cancelled"
+msgstr ""
+
+#: ../pack/build/live/single-show.php:109 ../single-show.php:109
+msgid "View the facebook event page"
+msgstr ""
+
+#: ../pack/build/live/single-show.php:129
+#: ../pack/build/live/wp-wolf-framework/pages/update.php:75
+#: ../single-show.php:129 ../wp-wolf-framework/pages/update.php:75
+msgid "Details"
+msgstr ""
+
+#: ../pack/build/live/single-show.php:132 ../single-show.php:132
+#, php-format
+msgid "<strong>Time</strong> : %s"
+msgstr ""
+
+#: ../pack/build/live/single-show.php:136 ../single-show.php:136
+#, php-format
+msgid "<strong>Venue</strong> : %s"
+msgstr ""
+
+#: ../pack/build/live/single-show.php:140 ../single-show.php:140
+#, php-format
+msgid "<strong>Address</strong> : %s"
+msgstr ""
+
+#: ../pack/build/live/single-show.php:144 ../single-show.php:144
+#, php-format
+msgid "<strong>State</strong> : %s"
+msgstr ""
+
+#: ../pack/build/live/single-show.php:148 ../single-show.php:148
+#, php-format
+msgid "<strong>Zip</strong> : %s"
+msgstr ""
+
+#: ../pack/build/live/single-show.php:152 ../single-show.php:152
+#, php-format
+msgid "<strong>Phone</strong> : %s"
+msgstr ""
+
+#: ../pack/build/live/single-show.php:156 ../single-show.php:156
+#, php-format
+msgid "<strong>Contact Email</strong> : %s"
+msgstr ""
+
+#: ../pack/build/live/single-show.php:160 ../single-show.php:160
+#, php-format
+msgid "<strong>Contact Website</strong> : %s"
+msgstr ""
+
+#: ../pack/build/live/store-template.php:45
+#: ../pack/build/live/videos-template.php:25 ../store-template.php:45
+#: ../videos-template.php:25
+msgid "All"
+msgstr ""
+
+#: ../pack/build/live/store-template.php:129 ../store-template.php:129
+msgid "No item for sale yet."
+msgstr ""
+
+#: ../pack/build/live/videos-template.php:63 ../videos-template.php:63
+#, php-format
+msgid "Watch %s"
+msgstr ""
+
+#: ../pack/build/live/videos-template.php:79 ../videos-template.php:79
+msgid "No video yet"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-customizer.php:368
+#: ../pack/build/live/wp-wolf-framework/classes/class-options.php:537
+#: ../wp-wolf-framework/classes/class-customizer.php:368
+#: ../wp-wolf-framework/classes/class-options.php:537
+msgid "Font Color"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-customizer.php:396
+#: ../wp-wolf-framework/classes/class-customizer.php:396
+msgid "No Background"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-customizer.php:420
+#: ../pack/build/live/wp-wolf-framework/classes/class-options.php:555
+#: ../wp-wolf-framework/classes/class-customizer.php:420
+#: ../wp-wolf-framework/classes/class-options.php:555
+msgid "Background Color"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-customizer.php:442
+#: ../wp-wolf-framework/classes/class-customizer.php:442
+msgid "Background color opacity (in percent)"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-customizer.php:461
+#: ../pack/build/live/wp-wolf-framework/classes/class-options.php:569
+#: ../wp-wolf-framework/classes/class-customizer.php:461
+#: ../wp-wolf-framework/classes/class-options.php:569
+msgid "Background Image"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-customizer.php:483
+#: ../wp-wolf-framework/classes/class-customizer.php:483
+msgid "Background Repeat"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-customizer.php:509
+#: ../wp-wolf-framework/classes/class-customizer.php:509
+msgid "Background Position"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-customizer.php:540
+#: ../wp-wolf-framework/classes/class-customizer.php:540
+msgid "Background Attachment"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-customizer.php:564
+#: ../wp-wolf-framework/classes/class-customizer.php:564
+msgid "Background Size"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-customizer.php:567
+#: ../pack/build/live/wp-wolf-framework/classes/class-metabox.php:248
+#: ../pack/build/live/wp-wolf-framework/classes/class-options.php:656
+#: ../wp-wolf-framework/classes/class-customizer.php:567
+#: ../wp-wolf-framework/classes/class-metabox.php:248
+#: ../wp-wolf-framework/classes/class-options.php:656
+msgid "cover (resize)"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-customizer.php:568
+#: ../pack/build/live/wp-wolf-framework/classes/class-metabox.php:249
+#: ../pack/build/live/wp-wolf-framework/classes/class-options.php:657
+#: ../wp-wolf-framework/classes/class-customizer.php:568
+#: ../wp-wolf-framework/classes/class-metabox.php:249
+#: ../wp-wolf-framework/classes/class-options.php:657
+msgid "normal"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-customizer.php:569
+#: ../pack/build/live/wp-wolf-framework/classes/class-metabox.php:250
+#: ../pack/build/live/wp-wolf-framework/classes/class-options.php:658
+#: ../wp-wolf-framework/classes/class-customizer.php:569
+#: ../wp-wolf-framework/classes/class-metabox.php:250
+#: ../wp-wolf-framework/classes/class-options.php:658
+msgid "responsive (hard resize)"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-customizer.php:588
+#: ../pack/build/live/wp-wolf-framework/classes/class-metabox.php:265
+#: ../pack/build/live/wp-wolf-framework/classes/class-options.php:684
+#: ../wp-wolf-framework/classes/class-customizer.php:588
+#: ../wp-wolf-framework/classes/class-metabox.php:265
+#: ../wp-wolf-framework/classes/class-options.php:684
+msgid "Parallax"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-customizer.php:633
+#: ../pack/build/live/wp-wolf-framework/classes/class-customizer.php:652
+#: ../wp-wolf-framework/classes/class-customizer.php:633
+#: ../wp-wolf-framework/classes/class-customizer.php:652
+msgid "Default"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-customizer.php:657
+#: ../wp-wolf-framework/classes/class-customizer.php:657
+msgid "Are you sure to want to reset all styles to default ?"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-customizer.php:666
+#: ../wp-wolf-framework/classes/class-customizer.php:666
+msgid "reset all"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-default-pages.php:47
+#: ../wp-wolf-framework/classes/class-default-pages.php:47
+msgid "The default pages have been created!"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-default-pages.php:66
+#: ../wp-wolf-framework/classes/class-default-pages.php:66
+#, php-format
+msgid ""
+"You can install default pages to help you to get started with <strong>%s</"
+"strong> theme."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-default-pages.php:70
+#: ../wp-wolf-framework/classes/class-default-pages.php:70
+msgid ""
+"<strong>It is recommended to install the plugins you need from the "
+"recommended plugins list first</strong>, in order to install the default "
+"pages accordingly."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-default-pages.php:74
+#: ../wp-wolf-framework/classes/class-default-pages.php:74
+#, php-format
+msgid ""
+"<a href=\"%1$s\" class=\"button-primary\">Install default pages</a> <a href="
+"\"%2$s\" class=\"button\">Dismiss this message</a>"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-metabox.php:162
+#: ../pack/build/live/wp-wolf-framework/classes/class-metabox.php:190
+#: ../pack/build/live/wp-wolf-framework/classes/class-options.php:493
+#: ../pack/build/live/wp-wolf-framework/classes/class-options.php:510
+#: ../pack/build/live/wp-wolf-framework/classes/class-options.php:576
+#: ../wp-wolf-framework/classes/class-metabox.php:162
+#: ../wp-wolf-framework/classes/class-metabox.php:190
+#: ../wp-wolf-framework/classes/class-options.php:493
+#: ../wp-wolf-framework/classes/class-options.php:510
+#: ../wp-wolf-framework/classes/class-options.php:576
+msgid "Clear"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-metabox.php:163
+#: ../pack/build/live/wp-wolf-framework/classes/class-metabox.php:191
+#: ../pack/build/live/wp-wolf-framework/classes/class-options.php:494
+#: ../pack/build/live/wp-wolf-framework/classes/class-options.php:577
+#: ../wp-wolf-framework/classes/class-metabox.php:163
+#: ../wp-wolf-framework/classes/class-metabox.php:191
+#: ../wp-wolf-framework/classes/class-options.php:494
+#: ../wp-wolf-framework/classes/class-options.php:577
+msgid "Choose an image"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-metabox.php:182
+#: ../wp-wolf-framework/classes/class-metabox.php:182
+msgid "Background color"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-metabox.php:186
+#: ../wp-wolf-framework/classes/class-metabox.php:186
+msgid "Background image"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-metabox.php:200
+#: ../wp-wolf-framework/classes/class-metabox.php:200
+msgid "Background repeat"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-metabox.php:223
+#: ../wp-wolf-framework/classes/class-metabox.php:223
+msgid "Background position"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-metabox.php:237
+#: ../wp-wolf-framework/classes/class-metabox.php:237
+msgid "Background attachment"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-metabox.php:255
+#: ../wp-wolf-framework/classes/class-metabox.php:255
+msgid "Background size"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-options.php:84
+#: ../wp-wolf-framework/classes/class-options.php:84
+msgid "is not a valid email"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-options.php:165
+#: ../wp-wolf-framework/classes/class-options.php:165
+msgid "Your settings have been saved."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-options.php:168
+#: ../wp-wolf-framework/classes/class-options.php:168
+msgid "Your settings have been reset."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-options.php:192
+#: ../wp-wolf-framework/classes/class-options.php:192
+#, php-format
+msgid "v.%1$s (Parent Theme v.%2$s)"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-options.php:238
+#: ../wp-wolf-framework/classes/class-options.php:238
+msgid "Save changes"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-options.php:296
+#: ../wp-wolf-framework/classes/class-options.php:296
+msgid "Are you sure to want to reset all options ?"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-options.php:301
+#: ../wp-wolf-framework/classes/class-options.php:301
+msgid "Reset all options"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-options.php:348
+#: ../wp-wolf-framework/classes/class-options.php:348
+msgid "Click to view the screenshot helper"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-options.php:511
+#: ../wp-wolf-framework/classes/class-options.php:511
+msgid "Choose a file"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-options.php:531
+#: ../wp-wolf-framework/classes/class-options.php:531
+msgid "Dark"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-options.php:532
+#: ../wp-wolf-framework/classes/class-options.php:532
+msgid "Light"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-options.php:590
+#: ../wp-wolf-framework/classes/class-options.php:590
+msgid "Repeat"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-options.php:620
+#: ../wp-wolf-framework/classes/class-options.php:620
+msgid "Position"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-options.php:640
+#: ../wp-wolf-framework/classes/class-options.php:640
+msgid "Attachment"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-options.php:664
+#: ../wp-wolf-framework/classes/class-options.php:664
+msgid "Size"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:158
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:158
+msgid "Something went wrong."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:170
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:170
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:172
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1538
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:172
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1538
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:173
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:173
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:174
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:174
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1085
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1085
+msgid "External Link"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1090
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1090
+msgid "Private Repository"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1093
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1093
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1097
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1097
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1100
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1100
+msgid "Required"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1100
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1100
+msgid "Recommended"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1103
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1103
+msgid "Not Installed"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1105
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1105
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1275
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1275
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1291
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1291
+msgid "Plugin"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1292
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1292
+msgid "Source"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1294
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1294
+msgid "Status"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1312
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1312
+msgid "Install"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1313
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1313
+msgid "Activate"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1823
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1823
+msgid "Install package not available."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1824
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1824
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1825
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1825
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1826
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1826
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1827
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1827
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1828
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1828
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1839
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1839
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1949
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1949
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1950
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1950
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1950
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1959
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1950
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1959
+msgid "Show Details"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1950
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1959
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1950
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1959
+msgid "Hide Details"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1951
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1951
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1952
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1952
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1956
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1956
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1957
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1957
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1958
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1959
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1959
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1960
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1960
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:1961
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:1961
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-tgm-plugin-activation.php:2052
+#: ../wp-wolf-framework/classes/class-tgm-plugin-activation.php:2052
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-update-zip.php:46
+#: ../wp-wolf-framework/classes/class-update-zip.php:46
+#, php-format
+msgid ""
+"<em>You server configuration does not allow you to update by uploading a "
+"zip. You need %s installed. You will have to update the theme via FTP.</em>"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-update-zip.php:70
+#: ../wp-wolf-framework/classes/class-update-zip.php:70
+msgid ""
+"To be able to update using zip file upload, the <strong>\"tmp\"</strong> "
+"folder inside the theme directory has to be writable. Set the folder "
+"permission to 777 through your FTP client. Otherwise you can choose to "
+"update the theme via FTP."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-update-zip.php:84
+#: ../wp-wolf-framework/classes/class-update-zip.php:84
+#, php-format
+msgid ""
+"Error while trying to find the folder <strong>%s</strong>. \n"
+"\t\t\t\t\t\t\tPlease create it manually and set the permission to 777 "
+"through your FTP client.<br>\n"
+"\t\t\t\t\t\t\tThis folder is necessary to be able to update the theme via "
+"zip file uload.\n"
+"\t\t\t\t\t\t\tOtherwise you can choose to update the theme via FTP."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-update-zip.php:102
+#: ../wp-wolf-framework/classes/class-update-zip.php:102
+msgid "Update using zip file upload"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-update-zip.php:104
+#: ../wp-wolf-framework/classes/class-update-zip.php:104
+#, php-format
+msgid "To update the theme, please upload the %s file from your theme package."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-update-zip.php:109
+#: ../wp-wolf-framework/classes/class-update-zip.php:109
+msgid "Update Theme"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-update-zip.php:125
+#: ../wp-wolf-framework/classes/class-update-zip.php:125
+msgid "It seems that you are trying to upload the wrong file."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-update-zip.php:126
+#: ../wp-wolf-framework/classes/class-update-zip.php:126
+#, php-format
+msgid "You have to upload the %s file."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-update-zip.php:132
+#: ../wp-wolf-framework/classes/class-update-zip.php:132
+msgid "Theme Updated."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-update-zip.php:138
+#: ../wp-wolf-framework/classes/class-update-zip.php:138
+msgid "Please select a file to upload."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/classes/class-update-zip.php:165
+#: ../wp-wolf-framework/classes/class-update-zip.php:165
+msgid "An occur occured while trying to update the theme."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/includes/admin/admin-functions.php:19
+#: ../wp-wolf-framework/includes/admin/admin-functions.php:19
+msgid "Hide permanently"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/includes/admin/admin-functions.php:114
+#: ../pack/build/live/wp-wolf-framework/pages/update.php:26
+#: ../wp-wolf-framework/includes/admin/admin-functions.php:114
+#: ../wp-wolf-framework/pages/update.php:26
+#, php-format
+msgid "There is a new version of %s available."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/includes/admin/admin-functions.php:115
+#: ../pack/build/live/wp-wolf-framework/pages/update.php:27
+#: ../wp-wolf-framework/includes/admin/admin-functions.php:115
+#: ../wp-wolf-framework/pages/update.php:27
+#, php-format
+msgid "You have version %s installed."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/includes/admin/admin-functions.php:119
+#: ../pack/build/live/wp-wolf-framework/pages/update.php:28
+#: ../wp-wolf-framework/includes/admin/admin-functions.php:119
+#: ../wp-wolf-framework/pages/update.php:28
+#, php-format
+msgid "Update to version %s"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/includes/filters.php:50
+#: ../wp-wolf-framework/includes/filters.php:50
+msgid "Email"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/pages/update.php:13
+#: ../wp-wolf-framework/pages/update.php:13
+msgid "Theme Updates"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/pages/update.php:32
+#: ../wp-wolf-framework/pages/update.php:32
+msgid "Update Download and Instructions"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/pages/update.php:34
+#: ../wp-wolf-framework/pages/update.php:34
+#, php-format
+msgid ""
+"<strong>Important :</strong> make a backup of the %1$s theme inside your "
+"WordPress installation folder %2$s before attempting to update."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/pages/update.php:35
+#: ../wp-wolf-framework/pages/update.php:35
+#, php-format
+msgid ""
+"To update the %s theme, login to your ThemeForest account, go to your "
+"downloads section and re-download the theme as you did when you purchased it."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/pages/update.php:38
+#: ../wp-wolf-framework/pages/update.php:38
+msgid ""
+"If you didn't make any changes to the theme files, you are free to overwrite "
+"them with the new files without risk of losing your theme settings."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/pages/update.php:39
+#: ../wp-wolf-framework/pages/update.php:39
+#, php-format
+msgid ""
+"If you want to edit the theme files it is recommended to create a <a href="
+"\"%s\" target=\"_blank\">child theme</a>."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/pages/update.php:47
+#: ../wp-wolf-framework/pages/update.php:47
+msgid "Update through FTP"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/pages/update.php:48
+#: ../wp-wolf-framework/pages/update.php:48
+#, php-format
+msgid ""
+"Extract the zip's contents, find the <strong>%1$s</strong> theme folder, and "
+"upload the new files using your FTP client to the %2$s folder. This will "
+"overwrite the old files."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/pages/update.php:56
+#: ../wp-wolf-framework/pages/update.php:56
+#, php-format
+msgid "The %1$s theme is currently up to date at version %2$s"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/pages/update.php:62
+#: ../wp-wolf-framework/pages/update.php:62
+msgid "Changelog"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/pages/update.php:77
+#: ../wp-wolf-framework/pages/update.php:77
+msgid "Requires"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/pages/update.php:78
+#: ../wp-wolf-framework/pages/update.php:78
+msgid "Tested"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/pages/update.php:79
+#: ../wp-wolf-framework/pages/update.php:79
+msgid "Last update"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/pages/update.php:84
+#: ../wp-wolf-framework/pages/update.php:84
+msgid "Unable to load the changelog"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/wp-wolf-admin.php:95
+#: ../pack/build/live/wp-wolf-framework/wp-wolf-admin.php:98
+#: ../pack/build/live/wp-wolf-framework/wp-wolf-admin.php:102
+#: ../wp-wolf-framework/wp-wolf-admin.php:95
+#: ../wp-wolf-framework/wp-wolf-admin.php:98
+#: ../wp-wolf-framework/wp-wolf-admin.php:102
+msgid "Updates"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/wp-wolf-admin.php:108
+#: ../wp-wolf-framework/wp-wolf-admin.php:108
+msgid "Helpdesk"
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/wp-wolf-admin.php:151
+#: ../wp-wolf-framework/wp-wolf-admin.php:151
+msgid ""
+"The <strong>cURL</strong> extension is not installed on your server. This "
+"extension is required to display theme update notifications."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/wp-wolf-admin.php:158
+#: ../wp-wolf-framework/wp-wolf-admin.php:158
+msgid ""
+"The <strong>GD library</strong> extension is not installed on your server. "
+"This extension is essential to Wordpress to be able to resize your images. "
+"Please contact your hosting service for more informations."
+msgstr ""
+
+#: ../pack/build/live/wp-wolf-framework/wp-wolf-admin.php:170
+#: ../wp-wolf-framework/wp-wolf-admin.php:170
+#, php-format
+msgid ""
+"It seems that <strong>the theme has been installed incorrectly</strong>. Go "
+"<a href=\"%s\" target=\"_blank\">here</a> to find instructions about theme "
+"installation."
+msgstr ""

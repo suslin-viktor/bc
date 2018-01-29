@@ -1,0 +1,427 @@
+
+
+
+
+#content .ellipse {
+	border: 1px solid #979797;
+	border-radius: 50%;
+	outline: none;
+	padding: 45px 15px;
+}
+
+.orange {
+	background: #FF9900;
+}
+
+.green {
+	background: #33FF33;
+}
+
+.turquoise {
+	background: #66FF99;
+}
+
+.blue {
+	background: #4388CC;
+}
+
+.red {
+	background: #FF6666;
+}
+
+#primary-fullwidth {
+	width: 100%;
+}
+
+#content .contentInBlock { 
+	border: 1px solid #979797;
+	padding: 3px;
+	margin-top: 5px;
+	/*display: table;*/
+
+ }
+.tableData .col-md-3,.tableData .col-md-6,.tableData .col-md-4, .tableData .col-md-10, .tableData .col-md-2 {
+ 	padding-left: 5px;
+ 	padding-right: 5px;
+
+ }
+
+ .tableData {
+ 	padding: 15px;
+ }
+.ellipseCenterFirst{
+	margin:25px 0px;
+	margin-left: 40px; 
+	width: 86%;
+	/*height:110px;*/
+	-moz-border-radius: 205px/56px;
+	-webkit-border-radius: 205px/56px;
+	border-radius:205px/56px;
+} 
+
+.ellipseCenterSecond{
+	margin:30px 0px;
+	 
+	/*height:110px;*/
+	-moz-border-radius: 245px/104px;
+	-webkit-border-radius: 245px/104px;
+	border-radius: 245px/104px;
+} 
+
+.ellipseRight{
+	margin:18px 33px;
+	height:90px;
+	-moz-border-radius: 182px/89px;
+	-webkit-border-radius: 182px/89px;
+	border-radius: 182px/89px;
+} 
+
+.contentInBlock  p {
+    /*display: table-cell;*/
+    vertical-align: middle;
+    text-align: center;
+    margin: 0;
+}
+
+.table {
+ 	display: table;
+}
+
+#first_fone {
+	background-image: url(../images/fone1.png);
+	background-repeat: no-repeat;
+	margin-bottom: -60px;
+	height: 90px;
+}
+
+#first_fone span {
+	margin-left: 113px;
+
+}
+
+.left_block {
+	/*height: 740px;*/
+}
+
+.right_block {
+	/*min-height: 695px;*/
+}
+
+.right_block p {
+	text-align: center;
+}
+
+
+/* ---------- Header ---------- */
+
+
+
+.site-header .col-md-7 {
+	overflow: hidden;
+}
+
+.site-header .table-head {
+	display: block;
+}
+
+.site-header #logo-container {
+	display: block;
+	width: auto;
+}
+
+.site-header #logo-container a {
+	display: block;
+}
+
+.site-header #logo-container a img {
+	width: 100%;
+}
+
+.site-header .header-right p {
+	margin: 0;
+}
+
+.site-header .header-right input {
+	width: 80%;
+	padding: 5px 10px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 10px;
+}
+/*
+.site-header .header-right input.button {
+	color: #fff !important;
+}
+*/
+.site-header .header-right input#rememberme {
+	width: auto;
+	height: auto;
+}
+
+.site-header .header-right .keeplogin label {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 14px;
+	margin: 0;
+}
+
+/* ---------- Home page ---------- */
+
+.home-block {
+	padding: 40px 0;
+	width: 75%;
+	margin: 0 auto 50px auto;
+	text-align: center;
+	background: #33FF33;
+	border: 1px solid #4388CC;
+}
+
+.home-block p {
+	margin: 0;
+}
+
+.home-block1 {
+	border-radius: 50%;
+}
+
+/* ---------- Register Page ---------- */
+
+.form-register {
+	width: 100%;
+	border: 1px solid #999;
+	border-radius: 10px;
+}
+
+.form-register p,
+p.login-facebook {
+	text-align: center;
+	width: 70%;
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+.form-register p input[type="text"],
+.form-register p input[type="password"],
+.form-register p select {
+	background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+	width: 100%;
+	line-height: 16px;
+	font-size: 16px;
+	height: 40px;
+	padding: 10px;
+}
+
+.form-register p input[type="checkbox"] {
+	margin: 0;
+	float: left;
+}
+
+.form-register p label {
+	line-height: 15px;
+	font-size: 17px;
+	margin: 0 0 0 10px;
+	float: left;
+}
+
+.form-register p input.first-row {
+	width: 48%;
+	margin: 0 2% 0 0;
+	float: left;
+}
+
+.form-register p input.last-row {
+	width: 48%;
+	margin: 0 0 0 2%;
+	float: right;
+}
+
+.form-register p input:focus {
+	border: 2px solid #4388CC;
+}
+
+.form-register p input:required:invalid {
+	border: 2px solid #b03535 !important;
+}
+
+.form-register p input:required:valid {
+	border: 2px solid #4BAC3E !important;
+}
+
+.page-template-page-registration .home-block {
+	margin-top: 50px;
+}
+
+/* ---------- Page 4 ---------- */
+
+/* ----- top ----- */
+.top-select {
+	margin-bottom: 40px;
+}
+
+.top-select a {
+	display: block;
+	padding: 10px;
+	background: #3366FF;
+	color: #eee;
+	font-size: 14px;
+	margin-top: 10px;
+	border: 1px solid #1B327F;
+}
+
+.top-select a.current {
+	background: #33FF33;
+	color: #000;
+}
+
+/* ----- left ----- */
+
+.page4 .block-left a,
+.page4 .block-left span {
+	display: block;
+	padding: 10px;
+	background: #33FF33;
+	color: #222;
+	font-size: 14px;
+	margin-bottom: 10px;
+	border: 1px solid #1B327F;
+}
+
+.page4 .block-left a:hover,
+.page4 .block-left a:active,
+.page4 .block-left span:hover {
+	background: #33CC00;
+	color: #fff;
+}
+
+/* ----- right ----- */
+
+.page4 #content .block-right .contentInBlock {
+	margin: 0 0 40px 0;
+}
+
+.page4 #content .block-right .contentInBlock.blue {
+	padding: 10px;
+}
+
+.page4 #content .block-bottom .contentInBlock {
+	height: 100%;
+	padding: 10px;
+	margin: 0;
+}
+
+.page4 #content .block-bottom .contentInBlock p {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+/* ---------- Page 5 ---------- */
+
+/* ---------- Page 6 ---------- */
+
+.page6 .block-left, .page6 .block-center, .page6 .block-right, .page6 .block-bottom,
+.page6 #content .contentInBlock {
+	outline: 1px solid #979797;
+	border: none;
+	text-align: center;
+	margin: 10px 0;
+	overflow: hidden;
+}
+
+.page6 #content .contentInBlock.ellipse {
+	border: 1px solid #979797;
+	border-radius: 50%;
+	outline: none;
+	padding: 45px 0;
+}
+
+.page6 #content .contentInBlock p {
+	display: block;
+	margin: 0;
+	font-size: 12px;
+}
+
+.page6 .block {
+	margin-bottom: 40px;
+}
+
+/* ----- left ----- */
+
+.page6 .block-left .block2 .contentInBlock {
+	min-height: 600px;
+	background: #FF6666;
+}
+
+/* ----- center ----- */
+
+.page6 .block-center .block1 .ellipse {
+	background: #4388CC;
+}
+
+.page6 .block-center .block2 .contentInBlock {
+	background: #4388CC;
+}
+
+.page6 .block-center .block2 p {
+	text-align: center;
+}
+
+.page6 .block-center .block3 .ellipse {
+	background: #CC9933;
+}
+
+.page6 .block-center .block5 .contentInBlock {
+	background: #66FF99;
+}
+
+.page6 .block-bottom .grey {
+	min-height: 200px;
+	background: #ccc;
+	color:  #000;
+}
+
+/* ----- right ----- */
+
+.page6 .block-right .ellipse {
+	background: #CC9933;
+}
+
+.page6 .block-right .tableData .row:first-child .contentInBlock {
+	background: #FF6666;
+}
+
+.page6 .block-right .tableData .contentInBlock {
+	background: #66FF99;
+}
+
+/* ---------- Page 7 ---------- */
+
+.page7 p {
+	margin: 0;
+}
+
+.page7 .contentInBlock h5 {
+	background: #4388CC;
+	padding: 10px 5px;
+	text-align: center;
+}
+
+.page7 .contentInBlock .info-block {
+	min-height: 200px;
+	background: #4388CC;
+	padding: 10px;
+}
+
+.page7 .contentInBlock .info-block p{
+	font-size: 14px;
+	text-align: center;
+	display: block;
+}
+
+.page7 .contentInBlock .bottom-info-block {
+	background: #4388CC;
+	width: 80%;
+	margin-top: 20px;
+	padding: 10px 5px;
+	font-size: 12px;
+}

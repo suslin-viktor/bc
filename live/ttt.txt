@@ -1,0 +1,292 @@
+
+<script src="<?php echo get_template_directory_uri();?>/js/ajax-handler.js"></script>
+				<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+					<div class="wrapper-list">
+						<div class="heading-list">
+							<span class="heading">mon score</span>
+							<span class="number">6.42</span>
+						</div>
+						<ul class="list-block-holder">
+							<li>Dio - Gypsy<span class="result">1</span></li>
+							<li>Led Zeppelin - Heartbreacker<span class="result">2</span></li>
+							<li>Deep Purple - Highway Star<span class="result">3</span></li>
+							<li>Black Sabbath - Paranoid<span class="result">4</span></li>
+							<li>Rainbow - Stargazer<span class="result">5</span></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div class="col-xs-12 col-sm-8 col-md-6 col-lg-6">
+					<div id="first_fone" class="amount-strike btn-red">
+						<span>Strike ! X2</span>
+					</div>
+					
+					
+					<?php
+					
+					$args = array(
+						'posts_per_page' => 1,
+						'post_type'=>'playlists',
+						'meta_key' => 'game_start',
+						'orderby' => 'game_start',
+						'order' => 'ASC'
+					);
+					
+					$query = new WP_Query( $args );
+					
+					// Цикл
+					if ( $query->have_posts() ) {
+						while ( $query->have_posts() ) {
+						$query->the_post();
+					?>
+					
+						<?php if ( have_rows('playlist') ) : ?>
+							
+							<?php $i = 1; ?>
+							<?php while( have_rows('playlist') ): the_row(); 
+							// vars
+							if ($i == 1) {
+								$track = get_sub_field('track');
+								?>
+								
+								<audio id="audio" preload="auto" tabindex="0" controls="" type="audio/mpeg" autoplay style="display: none;">
+									<source type="audio/mp3" src="<?php echo $track; ?>">
+									Sorry, your browser does not support HTML5 audio.
+								</audio>
+							<?php
+							}
+							$i++;
+							endwhile; ?>
+							
+							<ul id="playlist" style="display: none;">
+								<?php $i = 1; ?>
+								<?php while( have_rows('playlist') ): the_row(); 
+								// vars
+								$track = get_sub_field('track');
+								?>
+								<?php $i == 1 ? $class = 'active' : $class = '' ; ?>
+								<li class="<?php echo $class; ?>"><a href="<?php echo $track; ?>">track<?php echo $i; ?></a></li>
+								<?php $i++; ?>
+									
+								<?php endwhile; ?>
+							</ul>
+						
+						<?php endif; ?>
+					
+					<?php
+						}
+					} else {
+						// Постов не найдено
+					}
+					/* Возвращаем оригинальные данные поста. Сбрасываем $post. */
+					wp_reset_postdata();
+					
+					?>
+					<!--<div>current song: <span id="currentartist"></span> - <span id="currentsong"></span></div>-->
+
+					<?php //echo do_shortcode('[wonderplugin_audio id="1"]'); ?>
+
+					<div class="progress-box">
+						<ul class="line-progress">
+							<li class="big-progress-line"><span class="start-line">0:00</span></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							
+							<li class="big-progress-line"><span class="middle-line">0:10</span></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li class="big-progress-line"><span class="finish-line">0:30</span></li>
+						</ul>
+						<div class="progress-bar">
+                            <div class="progress" style="width: 0%"></div>
+                        </div>
+                        
+                        <!-- <ul class="time-progress">
+							<li>0:00</li>
+							<li class="mark-time-progress">0:10</li>
+							<li>0:30</li>
+						</ul> -->
+					</div>
+
+					<div class="status">
+						<p class="correct">Correctement!</p>
+						<p class="incorrect">Incorrectement!</p>
+					</div>
+					
+					
+					
+					<div class="send-form">
+						<form action="" method="post" onsubmit="getAjaxSend()">
+							<!--
+							<textarea id="user_input" name="user_input" placeholder="Taper les titres de chansons et des artistes." maxlength="80"></textarea>
+							-->
+							<input style="width: 100%; padding: 20px;" type="text" id="user_input" name="user_input" placeholder="Taper les titres de chansons et des artistes." maxlength="80"></textarea>
+							
+							<a id="submit"  class="send" href="javascript: getAjaxSend();">Send</a>
+							
+							<script>
+							
+							getAjax();
+							//setInterval('getAjax()', 500);
+						</script>
+							<?php
+							/*
+								$playlist = array(
+									'Dio' => 'Gypsy', //1
+									'Led Zeppelin' => 'Heartbreacker', //2
+									'Deep Purple' => 'Highway Star', //3
+									'Black Sabbath' => 'Paranoid',//4
+									'Rainbow' => 'Stargazer', //5
+								);
+								$keys = array_keys($playlist);
+								echo $playlist[$keys[0]];
+								
+								echo "<br/>или<br/>";
+								
+								$playlist2 = array(
+								array('Dio','Gypsy',),
+								array(	
+								 'Led Zeppelin','Heartbreacker',
+								 ),
+								);
+								print_r($playlist2);
+								echo"<br/><br/>";
+								print_r($playlist2[0][1]);
+							 * */
+							?>
+						</form>
+						<script>
+						(function ( $ ) {
+							jQuery(document).ready(function () {
+								$('form').submit(function (e) {
+								    e.preventDefault();
+								});
+							});
+						})(jQuery);
+						</script>
+					</div>
+					
+					<?php
+					$playlist1 = array(
+						array('Dio','Gypsy'), //0
+						array('Led Zeppelin','Heartbreacker'), //1
+						array('Deep Purple','Highway Star'), //2
+						array('Black Sabbath','Paranoid'),//3
+						array('Rainbow','Stargazer'), //4
+					);
+					
+					foreach ($playlist1 as $key => &$value) {
+						$value[0] = strtolower($value[0]);
+						$value[1] = strtolower($value[1]);				
+					}
+					///var_dump($playlist1);
+					?>
+					
+					<div>Result: <span id="result"></span></div>
+					<div>Test: <span id="test"></span></div>
+					<!--
+					<div>Time: <span id="timestamp"></span></div>
+					<div>SendTime: <span id="sendtime"></span></div>
+					<div>Diff: <span id="diff"></span></div>
+					<div>Cookie: <span id="cookie"></span></div>
+					<div>Number: <span id="number"></span></div>
+					<div>Test: <span id="test"></span></div>
+					-->
+					<div class="row">
+						<div class="col-md-6">
+							<div class="count-block">
+								<strong class="number">35</strong>
+								<span>gold</span>
+							</div>
+							<div class="wrapper-list">
+								<div class="heading-list heading-list-mini">
+									<span class="heading">Score pour les artistes</span>
+								</div>
+								<ul class="list-block-holder mini-list-block-holder">
+									<li>Martinbatterie<span class="result">3,14</span></li>
+									<li>Manulemalin<span class="result">2,75</span></li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-md-6">
+							<div class="count-block">
+								<strong class="number">134</strong>
+								<span>gold</span>
+							</div>
+							<div class="wrapper-list">
+								<div class="heading-list heading-list-mini">
+									<span class="heading">Score pour les titres</span>
+								</div>
+								<ul class="list-block-holder mini-list-block-holder">
+									<li>Jean-jacques</li>
+								</ul>
+							</div>
+						</div>	
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-8 col-md-3 col-lg-3">
+					<p class="head">Tableau des scores general</p>
+					<div class="count-block">
+						<strong class="number">264</strong>
+						<span>gold</span>
+					</div>
+					<div class="chois-players-box">
+						<input id="chois-players" type="checkbox" name="chois-players">
+						<label for="chois-players">cocher pour n'afficher que les joueurs avec mises</label>
+					</div>
+					<div class="wrapper-list wrapper-list-table">
+						<table>
+							<tr class="heading-table-list">
+								<th style="min-width: 130px;">Nom</th>
+								<th>Score</th>
+								<th>Mise</th>
+							</tr>
+							<tr>
+								<td>Martinbatterie</td>
+								<td>5,17</td>
+								<td>100</td>
+							</tr>
+							<tr>
+								<td>Jean-jacques</td>
+								<td>4,85</td>
+								<td>100</td>
+							</tr>
+							<tr>
+								<td>Manulemalin</td>
+								<td>3,14</td>
+								<td>50</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
