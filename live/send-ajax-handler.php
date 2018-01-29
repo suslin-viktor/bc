@@ -186,6 +186,10 @@ if (isset($_POST["user_input"])) :
     //Проверяем есть ли страйк
     $bonus = $wpdb->get_var("SELECT bonus FROM log_bonus WHERE user_id = $user_id AND game_id = $game_id");
 
+    if($game_balls1 !=0 ){
+        $stat1 = 0;
+    }
+
     // Проверяем был ли правельный ответ
     $correct_answer1 = false;
     $correct_answer2 = false;
