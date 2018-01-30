@@ -576,9 +576,11 @@ if( get_post_meta( 853, 'trigger', 1 ) ) { //птичка switch game status
 							<div>
 								<a class="create-acc" href="<?php echo get_the_permalink(488) ?>">Creer un compte</a>
 							</div>
+                            <!--
 							<div>
 								<a class="fb-reg" href="#">S'incrire via facebook</a>
 							</div>
+							-->
 						</div>
 					</div>
 					
@@ -590,22 +592,48 @@ if( get_post_meta( 853, 'trigger', 1 ) ) { //птичка switch game status
 					
 					<div class="col-xs-12 col-sm-12 col-md-3">
 						<div class="holder-header-right">
-							<div class="header-right">
-								<?php $current_url = "http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>
-								<form action="<?php echo wp_login_url(get_permalink()); ?>" method="post">
-									<p><i class="fa fa-user" aria-hidden="true"></i><input name="log" type="text" value="" placeholder="Login" /></p>
-									<p><i class="fa fa-lock" aria-hidden="true"></i><span class="span-pass"></span><input name="pwd" type="password" value="" placeholder="Mot de passe" /></p>
-									<p class="keeplogin clearfix custom-checkbox">
-										<input id="rememberme" type="checkbox" value="forever" name="rememberme">
-										<label for="rememberme">Rester connecter</label>
-									</p>
-									<p><input type="submit" value="S'identifier" /></p>
-								</form>
-                                <div class="social-buttons">
-                                    <p class="left">S'incrire via </p>
-                                    <div class="right" id="uLogin_2fb60897" data-uloginid="2fb60897"></div>
-                                </div>
-							</div>
+                            <div class="header-right">
+                            <?php
+
+                            if ( is_user_logged_in() ) {
+                                $current_user = wp_get_current_user();
+                                $user_name = $current_user->user_login;
+                                ?>
+                                <p>Bonjour, <?= $user_name;?>.</p>
+                                <a href="<?php echo wp_logout_url( home_url() ); ?>" title="exit">Se déconnecter</a>
+
+                                <?php
+                            }
+                            else {
+                                ?>
+
+                                    <?php $current_url = "http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>
+                                    <form action="<?php echo wp_login_url(get_permalink()); ?>" method="post">
+                                        <p><i class="fa fa-user" aria-hidden="true"></i><input name="log" type="text" value="" placeholder="Login" /></p>
+                                        <p><i class="fa fa-lock" aria-hidden="true"></i><span class="span-pass"></span><input name="pwd" type="password" value="" placeholder="Mot de passe" /></p>
+                                        <p class="keeplogin clearfix custom-checkbox">
+                                            <input id="rememberme" type="checkbox" value="forever" name="rememberme">
+                                            <label for="rememberme">Rester connecter</label>
+                                        </p>
+                                        <p><input type="submit" value="S'identifier" /></p>
+                                    </form>
+                                    <div class="social-buttons">
+                                        <div class="ulogin_block">
+                                            <div class="ulogin_label">S`incrire via&nbsp;</div>
+                                            <div id="uLogin05381714" class="ulogin_panel" data-uloginid="2fb60897" data-ulogin="redirect_uri=http%3A%2F%2Fbreizh-concept.flntest.com%2F%3Fulogin%3Dtoken%26backurl%3D%252Fyour-profile%252F;" data-ulogin-inited="1517324945931">
+                                                <div class="ulogin-buttons-container" style="margin: 0px; padding: 0px; outline: none; border: none; border-radius: 0px; cursor: default; float: none; position: relative; display: inline-block; width: 84px; height: 32px; left: 0px; top: 0px; box-sizing: content-box; max-width: 100%; vertical-align: top; line-height: 0;">
+                                                    <div class="ulogin-button-google" data-uloginbutton="google" role="button" title="Google" style="margin: 0px 10px 10px 0px; padding: 0px; outline: none; border: none; border-radius: 0px; cursor: pointer; float: left; position: relative; display: inherit; width: 32px; height: 32px; left: 0px; top: 0px; box-sizing: content-box; background: url(&quot;https://ulogin.ru/version/2.0/img/providers-32-flat.png?version=img.2.0.0&quot;) 0px -206px / 32px no-repeat;"></div>
+                                                    <div class="ulogin-button-facebook" data-uloginbutton="facebook" role="button" title="Facebook" style="margin: 0px 10px 10px 0px; padding: 0px; outline: none; border: none; border-radius: 0px; cursor: pointer; float: left; position: relative; display: inherit; width: 32px; height: 32px; left: 0px; top: 0px; box-sizing: content-box; background: url(&quot;https://ulogin.ru/version/2.0/img/providers-32-flat.png?version=img.2.0.0&quot;) 0px -138px / 32px no-repeat;"></div>
+                                                </div>
+                                            </div>
+                                            <div style="clear:both"></div>
+                                        </div>
+                                    </div>
+
+                                <?php
+                            }
+                            ?>
+                            </div>
 						</div>
 					</div>
 					
