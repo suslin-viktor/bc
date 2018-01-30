@@ -17,6 +17,7 @@ if (isset($_POST["user_input"])) :
     $user_in = trim($user_in); //удаляет пробелы из конца и начала строки
     $user_in = strip_tags($user_in); //удаляет HTML и PHP-тегов
     $user_in = htmlspecialchars($user_in); //преобразует специальные символы в HTML-сущности
+    $input = $user_in;
     $is_dash = stristr($user_in, '-'); //false если нет дефиса || возврат строки начиная с дефиса
     $game_id = $_POST["game_id"]; //извлекаем id игры (hidden в форме)
 
@@ -74,14 +75,16 @@ if (isset($_POST["user_input"])) :
     $correct_artist = double_metaphone($playlist[0][0]);
     $correct_song = double_metaphone($playlist[0][1]);
 
-    //Для записи в game_log
-    $status1 = $status2 = 0;
+    //Для записи в логи
+    $status1 = $status2 = $proc_artist = $proc_song = 0;
 
 	if (!$is_dash) { //если не было дефиса
 		$user_in = double_metaphone( $user_in );
 	
 		$similar_artist = similar_text( $correct_artist['primary'] , $user_in['primary'], $percent10 );
 		$similar_song = similar_text( $correct_song['primary'] , $user_in['primary'], $percent11 );
+        $proc_artist = $percent10;
+        $proc_song = $percent11;
 
         if ($percent10 > 75 ) {
             $sendresp['artist'] = 'correct';
@@ -124,19 +127,33 @@ if (isset($_POST["user_input"])) :
 		$var4 = similar_text( $correct_song['primary'] , $input_second['primary'], $percent4 );
 
 		
-		if( $percent1 > $percent || $percent3 > $percent ) {
+		if( $percent1 > $percent) {
 		    $sendresp['artist'] = 'correct';
 		    $sendresp['status1'] = 1;
             $status1 = 1;
-		} else {
+            $proc_artist = $percent1;
+
+		}elseif( $percent3 > $percent ){
+            $sendresp['artist'] = 'correct';
+            $sendresp['status1'] = 1;
+            $status1 = 1;
+            $proc_artist = $percent3;
+
+        } else {
 		    $sendresp['artist'] = '<span class="incorrect">incorrect, try again </span>';
 		}
 
-		if( $percent2 > $percent || $percent4 > $percent ) {
+		if( $percent2 > $percent ) {
 		    $sendresp['song'] = 'correct';
 		    $sendresp['status2'] = 1;
             $status2 = 1;
-		} else {
+            $proc_song = $percent2;
+		} elseif($percent4 > $percent){
+            $sendresp['song'] = 'correct';
+            $sendresp['status2'] = 1;
+            $status2 = 1;
+            $proc_song = $percent4;
+        } else {
 		    $sendresp['song'] = '<span class="incorrect">incorrect, try again </span>';
 		}
 
@@ -169,8 +186,6 @@ if (isset($_POST["user_input"])) :
 
     //Извлекаем статусы и балы за раунд
     $result = $wpdb->get_row("SELECT * FROM log_round WHERE user_id = $user_id AND game_id = $game_id AND round = $last_round", ARRAY_A );
-    $stat1 = $result['status1']; // отгодал ли артиста
-    $stat2 = $result['status2']; // отгодал ли песню
     $game_balls1 = $result['game_balls1']; // балы за артиста
     $game_balls2 = $result['game_balls2']; // балы за песню
     $bonus_balls1 = $result['bonus_balls1']; // бонус за артиста
@@ -186,19 +201,10 @@ if (isset($_POST["user_input"])) :
     //Проверяем есть ли страйк
     $bonus = $wpdb->get_var("SELECT bonus FROM log_bonus WHERE user_id = $user_id AND game_id = $game_id");
 
-    if($game_balls1 !=0 ){
-        $stat1 = 0;
-    }
-
     // Проверяем был ли правельный ответ
     $correct_answer1 = false;
     $correct_answer2 = false;
-	if ( ($status1 == $stat1) && ($stat1 == 1) ){ //был правильный ответ и снова правельный
-	    $status1 = 1;
-    } elseif ( ($status1 == $stat1) && $stat1 == 0 ) { //был неправильный и снова неправельный
-        $status1 = 0;
-    } elseif ( ($status1 != $stat1) && $stat1 == 0 ) { //был неправильный и стал правильным (тут добавляем балл)
-        $status1 = 1;
+	if ( $game_balls1 == 0 && $status1 == 1 ){ //был неправильный и стал правильным (тут добавляем балл)
         $game_balls1++;
         // Если ответ дан за 10 сек
         if( $response_time < 10 ){
@@ -211,20 +217,15 @@ if (isset($_POST["user_input"])) :
             $bonus_balls1 *= 2;
         }
         $correct_answer1 = true;
-
-    } elseif ( ($status1 != $stat1) && $stat1 == 1) { //был правельным и стал неправильным
+    }elseif( $game_balls1 != 0 && $status1 == 0 ){ //Был правильным стал не правильным
         $status1 = 1;
     }
 
-    if ( ($status2 == $stat2) && ($stat2 == 1) ){ //был правильный ответ и снова правельный
-        $status2 = 1;
-    } elseif ( ($status2 == $stat2) && $stat2 == 0 ) { //был неправильный и снова неправельный
-        $status2 = 0;
-    } elseif ( ($status2 != $stat2) && $stat2 == 0 ) { //был неправильный и стал правильным (тут добавляем балл)
-        $status2 = 1;
+
+    if ( $game_balls2 == 0 && $status2 == 1 ){ //был неправильный и стал правильным (тут добавляем балл)
         $game_balls2++;
         // Если ответ дан за 10 сек
-        if($response_time < 10){
+        if( $response_time < 10 ){
             $bonus_balls2 += ((10 - $response_time)/10);
             $count_bonus++;
         }
@@ -234,19 +235,18 @@ if (isset($_POST["user_input"])) :
             $bonus_balls2 *= 2;
         }
         $correct_answer2 = true;
-
-    } elseif ( ($status2 != $stat2) && $stat2 == 1) { //был правельным и стал неправильным
+    }elseif( $game_balls2 != 0 && $status2 == 0 ){ //Был правильным стал не правильным
         $status2 = 1;
     }
 
     //Проверяем есть ли второй бонусный ответ что бы вернуть счет бонусу
-    if( ($response_time < 10) && ($status1 == 0 || $status2 == 0) ){
+    if( ($response_time < 10) && ($status1 == 1 xor $status2 == 1) ){
         if($correct_answer1){
             $bonus_balls1 /= 2;
         }else{
             $bonus_balls2 /= 2;
         }
-    }elseif( ($response_time < 10) && ($status1 == 1 && $status2 == 1) && ( $correct_answer1 xor $correct_answer2) ){ //Если дан второй бонусный ответ
+    }elseif( ($response_time < 10) && ($game_balls1 != 0 && $game_balls1 != 0) && ( $correct_answer1 xor $correct_answer2) ){ //Если дан второй бонусный ответ
         if($correct_answer1){
             $balls2 += $bonus_balls2;
             $balls += $bonus_balls2;
@@ -299,7 +299,7 @@ if (isset($_POST["user_input"])) :
     // Статусы и балы за раунд
     $wpdb->update(
         'log_round',
-        array( 'status1' => $status1, 'status2' => $status2, 'game_balls1' => $game_balls1, 'bonus_balls1' => $bonus_balls1, 'game_balls2' => $game_balls2, 'bonus_balls2' => $bonus_balls2, 'game_balls' => $game_balls ),
+        array( 'game_balls1' => $game_balls1, 'bonus_balls1' => $bonus_balls1, 'game_balls2' => $game_balls2, 'bonus_balls2' => $bonus_balls2, 'game_balls' => $game_balls ),
         array( 'game_id' => $game_id, 'user_id' => $user_id, 'round' => $last_round )
     );
 
@@ -309,6 +309,36 @@ if (isset($_POST["user_input"])) :
         array( 'count_bonus' => $count_bonus ),
         array( 'game_id' => $game_id, 'user_id' => $user_id )
     );
+
+    //Пишем все вводы
+    $wpdb->insert(
+        'log_inpute',
+        array(
+            'game_id' => $game_id,
+            'user_id' => $user_id,
+            'round' => $last_round,
+            'start_time' => $table_row->start_time,
+            'resp_time' => $table_row->resp_time,
+            'artist' => $playlist[0][0],
+            'song' => $playlist[0][1],
+            'input' => $input,
+            'proc_artist' => $proc_artist,
+            'proc_song' => $proc_song
+        ),
+        array(
+            '%d',
+            '%d',
+            '%d',
+            '%d',
+            '%d',
+            '%s',
+            '%s',
+            '%s',
+            '%d',
+            '%d'
+        )
+    );
+
 
     $sendresp['all_balls'] = $all_balls;
     $sendresp['balls1'] = $balls1;

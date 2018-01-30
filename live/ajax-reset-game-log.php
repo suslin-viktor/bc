@@ -24,8 +24,6 @@ $wpdb->insert(
     'log_round',
     array(
         'round' => $last_round,
-        'status1' => 0,
-        'status2' => 0,
         'game_balls1' => 0,
         'bonus_balls1' => 0,
         'game_balls2' => 0,
@@ -34,7 +32,7 @@ $wpdb->insert(
         'game_id' => $game_id,
         'user_id' => $user_id
     ),
-    array( '%d', '%d', '%d', '%f', '%f', '%f', '%f', '%f', '%d', '%d' )
+    array( '%d', '%f', '%f', '%f', '%f', '%f', '%d', '%d' )
 );
 
 

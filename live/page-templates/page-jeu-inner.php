@@ -11,10 +11,24 @@ $user_id = get_current_user_id();
 $time_current = strtotime("now");
 $time_current_correct = $time_current + 3*3600;
 
+$wpdb->delete( 'log_bonus', array('user_id' => $user_id ) );
+$wpdb->delete( 'log_strike', array('user_id' => $user_id ) );
+$wpdb->delete( 'log_time', array('user_id' => $user_id ) );
+
 $current_playlist_id = $wpdb->get_var("SELECT playlist_id FROM game_playlist_order WHERE playlist_time < $time_current_correct ORDER BY playlist_time DESC", 0, 0);
 
-// Вытаскиваем ID для записи лога
-$game_id = $wpdb->get_var("SELECT ID FROM game_playlist_order WHERE playlist_time < $time_current_correct ORDER BY playlist_time DESC", 0, 0);
+// Запись в log_main
+$wpdb->insert(
+    'log_main',
+    array(
+        'user_id' => $user_id,
+        'start_time' => $time_current
+    ),
+    array( '%d', '%d' )
+);
+
+//ID для записи лога
+$game_id = $wpdb->insert_id;
 
 // Делаем запись в log_game для видения счета игры
 $wpdb->insert(
@@ -28,26 +42,6 @@ $wpdb->insert(
     ),
     array( '%d', '%d', '%f', '%f', '%f' )
 );
-
-// Делаем запись в log_round для видения счета по раунду
-/*
-$wpdb->insert(
-    'log_round',
-    array(
-        'game_id' => $game_id,
-        'user_id' => $user_id,
-        'round' => 1,
-        'status1' => 0,
-        'status2' => 0,
-        'game_balls1' => 0,
-        'bonus_balls1' => 0,
-        'game_balls2' => 0,
-        'bonus_balls2' => 0,
-        'game_balls' => 0
-    ),
-    array( '%d', '%d', '%d', '%d', '%d', '%f', '%f', '%f', '%f', '%f' )
-);
-*/
 
 //Делаем запись в log_strike
 $wpdb->insert(
