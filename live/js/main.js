@@ -2,7 +2,7 @@
 
 	$(document).ready(function() {
 		pageContentFitWindowHeight();
-		initTrackListener();
+		//initTrackListener();
 
 		(function() {
 			$('.wrap-home-block .home-block').matchHeight({

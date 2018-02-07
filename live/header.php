@@ -49,7 +49,8 @@ if( get_post_meta( 853, 'trigger', 1 ) ) { //птичка switch game status
 	define('ITER', get_post_meta( 853, 'iter', 1 ));
 	
 	$time_current = strtotime("now");
-	$time_current_correct = $time_current + 3*3600; //for Paris change to 2*3600
+	//$time_current_correct = $time_current + 3*3600; //for Paris change to 2*3600
+	$time_current_correct = $time_current; // Берём время сервера
 	$time_start = get_post_meta( 853, 'start_game', 1 );
 	
 	//echo '<p>'.$time_current.' time current</p>';
